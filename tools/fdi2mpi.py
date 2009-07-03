@@ -91,7 +91,7 @@ def match_op2glob(node):
         for a in alternatives:
             hex_alternatives.append('%04x' % int(a, 0))
 
-        gl = '|'.join(hex_alternatives)
+        gl = ';'.join(hex_alternatives)
         id = '_'.join([v.replace(' ', '_').lower() for v in hex_alternatives])
         return (gl, id)
 
@@ -157,7 +157,7 @@ def mkfilename(attrs, current_vendor):
     if 'USBModel' in attrs.get('Device', {}):
         m = attrs['Device']['USBModel']
     # if we only have a single product ID, attempt to get nicer name
-    if '|' not in attrs['Device'].get('ProductID', [''])[0] and \
+    if ';' not in attrs['Device'].get('ProductID', [''])[0] and \
             'Product' in attrs.get('Device', {}) and \
             '/' not in attrs['Device']['Product']:
         m = attrs['Device']['Product']
@@ -166,13 +166,13 @@ def mkfilename(attrs, current_vendor):
 
     if type(m) == type([]):
         m = '_'.join(m)
-    m = m.replace(' ', '_').replace('|', '_').replace('*', '').replace('(',
+    m = m.replace(' ', '_').replace(';', '_').replace('*', '').replace('(',
             '').replace(')', '').lower()
     assert m
 
     assert '*' not in m, m
     assert '[' not in m, m
-    assert '|' not in m, m
+    assert ';' not in m, m
     assert '(' not in m, m
     assert ')' not in m, m
     assert ' ' not in m, m

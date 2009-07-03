@@ -39,12 +39,19 @@ def parse_mpi(mpi):
         print '#', m
     except ConfigParser.NoOptionError:
         pass
-    for name in ['vendorid', 'productid', 'usbvendor', 'usbproduct']:
+    for name in ['vendorid', 'usbvendor', 'usbproduct']:
         try:
             value = cp.get('Device', name)
             print mpi2udev[name] % value, ',',
         except ConfigParser.NoOptionError:
             continue
+
+    try:
+        productids = cp.get('Device', 'productid').replace(';', '|')
+        print mpi2udev['productid'] % productids, ',',
+    except ConfigParser.NoOptionError:
+        pass
+
     print 'ENV{ID_MEDIA_PLAYER}="%s"' % os.path.splitext(os.path.basename(mpi))[0]
 
 #
