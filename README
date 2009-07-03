@@ -1,0 +1,11 @@
+media-player-id is a repository of data files describing media player
+(mostly USB Mass Storage ones) capabilities. These files contain information
+about the directory layout to use to add music to these devices, about the
+supported file formats, ... These capabilities used to be provided by HAL but
+had to be moved elsewhere as part of the big HALectomy.
+
+The music player capabilities are now described in .mpi files (which are 
+.ini-like files) which you can find in media-players/. These mpi files are
+used to generate an udev rule to identify these devices. This rule associate
+an ID_MEDIA_PLAYER attribute to the media player devices which specifies the
+name of the .mpi file to use to find out the device capabilities.
