@@ -1,4 +1,4 @@
-mpidir = $(datadir)/udev/media-players
+mpidir = $(datadir)/media-player-id
 dist_mpi_DATA =  $(shell find $(top_srcdir)/media-players -name "*.mpi" -printf "%P\n")
 
 udevrulesdir = $(libexecdir)/rules.d
