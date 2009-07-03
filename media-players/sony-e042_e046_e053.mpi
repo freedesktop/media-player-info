@@ -3,7 +3,7 @@ AccessProtocol=storage
 VendorID=0fce
 Product=W810i, K610i, W300i
 Vendor=Sony Ericsson
-ProductID=e042|e046|e053
+ProductID=e042;e046;e053
 
 [Media]
 InputFormats=audio/x-wav

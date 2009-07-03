@@ -3,7 +3,7 @@ AccessProtocol=storage
 VendorID=0fca
 Product=Blackberry 8100 (Pearl), 8000 (Curve), 9000 (Bold)
 Vendor=RIM
-ProductID=0004|0006|8004
+ProductID=0004;0006;8004
 
 [Media]
 InputFormats=audio/mp4;audio/mpeg

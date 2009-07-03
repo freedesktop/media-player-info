@@ -3,7 +3,7 @@ AccessProtocol=storage
 VendorID=0e21
 Product=iAUDIO X5, M5, F2, 7
 Vendor=Cowon
-ProductID=0510|0520|0710|0730|0750
+ProductID=0510;0520;0710;0730;0750
 
 [Media]
 InputFormats=audio/mpeg

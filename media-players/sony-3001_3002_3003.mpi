@@ -3,7 +3,7 @@ AccessProtocol=storage
 VendorID=1006
 Product=iHP-100,115 / HP-120,140 / H320, H340
 Vendor=Sony Ericsson
-ProductID=3001|3002|3003
+ProductID=3001;3002;3003
 
 [Media]
 InputFormats=audio/mpeg

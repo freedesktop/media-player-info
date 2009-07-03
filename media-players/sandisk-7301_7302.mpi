@@ -3,7 +3,7 @@ AccessProtocol=storage
 VendorID=0781
 Product=Sansa e130, e140
 Vendor=SanDisk
-ProductID=7301|7302
+ProductID=7301;7302
 
 [Media]
 InputFormats=audio/x-wav

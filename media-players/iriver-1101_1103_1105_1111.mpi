@@ -3,7 +3,7 @@ AccessProtocol=storage
 VendorID=4102
 Product=iFP 100 UMS, 300 UMS, 500 UMS (supports application/ogg only after firmware upgrade), N10 UMS 
 Vendor=iRiver
-ProductID=1101|1103|1105|1111
+ProductID=1101;1103;1105;1111
 
 [Media]
 InputFormats=audio/mpeg

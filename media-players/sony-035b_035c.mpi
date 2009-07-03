@@ -3,7 +3,7 @@ AccessProtocol=storage
 VendorID=054c
 Product=Sony Walkman Video MP3 NWZ-xxxx
 Vendor=Sony
-ProductID=035b|035c
+ProductID=035b;035c
 
 [Media]
 OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac;audio/x-wav

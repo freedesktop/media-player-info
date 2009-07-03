@@ -3,7 +3,7 @@ AccessProtocol=storage
 VendorID=04e8
 Product=Samsung YP-MT6V, YP-F1,YP-U1, YP-U2Z, YP-U4
 Vendor=Samsung
-ProductID=5026|502b|503b|5050|5092
+ProductID=5026;502b;503b;5050;5092
 
 [Media]
 InputFormats=audio/x-wav
