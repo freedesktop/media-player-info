@@ -1,0 +1,13 @@
+[Device]
+AccessProtocol=storage
+VendorID=0bb4
+Product=Android Phone, HTC Diamond
+Vendor=High Tech Computer Corp.
+ProductID=0c01|0c02|0c13
+
+[Media]
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/3gpp;audio/mp4;audio/aac;audio/vnd.rn-realaudio;audio/x-midi;audio/x-wav;application/ogg
+
+[storage]
+AudioFolders=Music/
+

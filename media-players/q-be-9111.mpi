@@ -1,0 +1,8 @@
+[Device]
+AccessProtocol=storage
+VendorID=0f9c
+ProductID=9111
+
+[Media]
+OutputFormats=audio/mpeg;audio/x-ms-wma
+

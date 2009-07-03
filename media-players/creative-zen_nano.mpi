@@ -1,0 +1,10 @@
+[Device]
+AccessProtocol=storage
+VendorID=041e
+Product=Zen Nano
+Vendor=Creative
+ProductID=412c
+
+[Media]
+OutputFormats=audio/mpeg
+

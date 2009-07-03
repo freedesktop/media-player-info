@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=066f
+Product=ALBA MP3128D6
+Vendor=Jetflash MP3 Player, AKA NAPA LCD-HD, AKA Medion, AKA Tevion  and other
+ProductID=8305
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;audio/x-ms-wma
+

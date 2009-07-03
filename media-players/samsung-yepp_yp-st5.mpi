@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=04e8
+Product=Samsung Yepp YP-ST5
+Vendor=Samsung
+ProductID=5021
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;audio/x-ms-wma;application/ogg
+

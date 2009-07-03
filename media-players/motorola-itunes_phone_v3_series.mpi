@@ -1,0 +1,16 @@
+[Device]
+VendorID=22b8
+Vendor=Motorola
+AccessProtocol=ipod;storage
+Model=Motorola iTunes Phone;V3 series
+USBModel=*[iI][tT][uU][nN][eE][sS]*
+ProductID=4810
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/aac
+
+[storage]
+RequiresEject=true
+AudioFolders=mobile/audio/
+

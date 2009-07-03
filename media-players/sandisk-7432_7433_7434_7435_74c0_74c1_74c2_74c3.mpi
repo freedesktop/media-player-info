@@ -1,0 +1,17 @@
+[Device]
+AccessProtocol=storage
+VendorID=0781
+ProductID=7432|7433|7434|7435|74c0|74c1|74c2|74c3
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/audible;application/ogg;audio/ogg;audio/flac;audio/x-wav;audio/x-pn-audibleaudio
+
+[Playlist]
+Formats=audio/x-mpegurl
+
+[storage]
+RequiresEject=true
+PlaylistPath=%File
+AudioFolders=MUSIC/;PODCAST/;RECORD/FM/;RECORD/VOICE/;AUDIBLE/;AUDIOBOOKS/
+

@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=04e8
+Product=Samsung YP-T7F
+Vendor=Samsung
+ProductID=503d
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;application/ogg;audio/x-wav
+
+[storage]
+AudioFolders=Music/
+

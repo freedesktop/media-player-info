@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=054c
+Product=Sony Walkman NWD-B105
+Vendor=Sony
+ProductID=0317
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;audio/x-ms-wma
+
+[storage]
+AudioFolders=Music/;Record/Voice/
+

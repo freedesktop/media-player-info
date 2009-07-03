@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=041e
+Product=MuVo NX, MuVo2, MuVo TX, MuVo TX FM, Zen Micro,NOMAD Jukebox Zen Xtra, MuVo N200 (MuVo Micro), Zen Micro
+Vendor=Creative
+ProductID=4115|4116|4117|4120|411e|4128|412b|4130
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-wav
+

@@ -1,0 +1,12 @@
+[Device]
+AccessProtocol=storage
+VendorID=0fce
+ProductID=d028
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/aac
+
+[storage]
+AudioFolders=MP3/;MSSEMC/Media files/audio/
+

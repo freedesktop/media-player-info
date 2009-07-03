@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=054c
+Product=Sony Walkman NWZ-135F
+Vendor=Sony
+ProductID=036e
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;audio/x-ms-wma
+

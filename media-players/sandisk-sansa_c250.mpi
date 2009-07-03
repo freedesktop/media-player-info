@@ -1,0 +1,16 @@
+[Device]
+AccessProtocol=storage
+VendorID=0781
+Product=Sansa c250
+Vendor=SanDisk
+ProductID=7451
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-wav
+
+[storage]
+RequiresEject=true
+PlaylistPath=PLAYLIST/%File
+AudioFolders=MUSIC/
+

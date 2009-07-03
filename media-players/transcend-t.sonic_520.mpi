@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=0402
+Product=Transcend T.Sonic 520
+Vendor=Transcend
+ProductID=5661
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma
+

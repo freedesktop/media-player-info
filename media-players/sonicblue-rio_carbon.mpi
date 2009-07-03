@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=045a
+Product=Rio Carbon
+Vendor=SONICblue
+ProductID=5224
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma
+

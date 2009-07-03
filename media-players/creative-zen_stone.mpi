@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=041e
+Product=Zen Stone
+Vendor=Creative
+ProductID=4154
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/audible;audio/x-wav
+
+[storage]
+AudioFolders=MUSIC/
+

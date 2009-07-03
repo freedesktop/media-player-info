@@ -1,0 +1,12 @@
+[Device]
+AccessProtocol=storage
+VendorID=0d7d
+ProductID=1651
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma
+
+[storage]
+DriveType=sd_mmc
+

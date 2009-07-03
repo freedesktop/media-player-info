@@ -1,0 +1,12 @@
+[Device]
+AccessProtocol=storage
+VendorID=066f
+ProductID=8038
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma
+
+[storage]
+DriveType=sd_mmc
+

@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=1006
+Product=iGP 100
+Vendor=Sony Ericsson
+ProductID=2001
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;audio/x-ms-wma
+

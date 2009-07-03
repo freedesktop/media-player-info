@@ -1,0 +1,18 @@
+[Device]
+AccessProtocol=storage
+VendorID=0e79
+Product=Archos GMini 400m A404
+Vendor=Archos
+ProductID=1109|1300
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-wav;audio/x-ms-wma
+
+[Playlist]
+Formats=audio/x-mpegurl
+
+[storage]
+PlaylistPath=Playlist/
+AudioFolders=Music/
+

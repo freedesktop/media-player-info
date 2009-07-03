@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=1890
+Product=M-Cody M20
+Vendor=Maxfield, M-Cody, TrekStor
+ProductID=0001
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;application/ogg
+
+[storage]
+AudioFolders=Music/;voice/;fm/
+

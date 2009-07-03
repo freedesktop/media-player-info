@@ -1,0 +1,13 @@
+[Device]
+AccessProtocol=storage
+VendorID=04e8
+Product=Samsung YP-S5
+Vendor=Samsung
+ProductID=508c
+
+[Media]
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac
+
+[storage]
+AudioFolders=Music/
+

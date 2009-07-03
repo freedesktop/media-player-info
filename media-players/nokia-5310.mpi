@@ -1,0 +1,14 @@
+[Device]
+VendorID=0421
+Product=Nokia 5310
+Vendor=Nokia
+AccessProtocol=storage
+Model=5310
+ProductID=006a
+
+[Media]
+OutputFormats=audio/mpeg;audio/aac;audio/x-ms-wma;audio/x-wav
+
+[storage]
+AudioFolders=Music/
+

@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=1890
+Product=Maxfield MAX-SIN TOUCH
+Vendor=Maxfield, M-Cody, TrekStor
+ProductID=0110
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;application/ogg
+

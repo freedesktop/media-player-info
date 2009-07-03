@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=1462
+Product=MegaStick-1 Flash Stick
+Vendor=MSI
+ProductID=5512
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg
+

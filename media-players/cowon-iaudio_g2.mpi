@@ -1,0 +1,18 @@
+[Device]
+AccessProtocol=storage
+VendorID=0e21
+Product=iAUDIO G2
+Vendor=Cowon
+ProductID=0760
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;application/ogg;audio/x-ms-wma;audio/x-wav
+
+[Playlist]
+Formats=audio/x-mpegurl
+
+[storage]
+PlaylistPath=PLAYLIST/%File
+AudioFolders=MUSIC/;RECORD/;VOICE/
+

@@ -1,0 +1,18 @@
+[Device]
+AccessProtocol=storage
+VendorID=04e8
+Product=Meizu M6 MiniPlayer
+Vendor=Samsung
+ProductID=5a0f
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/ogg;audio/x-ms-wma;audio/flac;audio/x-wav
+
+[Playlist]
+Formats=audio/x-mpegurl
+
+[storage]
+PlaylistPath=PLAYLISTS/%File
+AudioFolders=MUSIC;RECORD
+

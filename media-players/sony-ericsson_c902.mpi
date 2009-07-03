@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=0fce
+Product=Sony Ericsson C902
+Vendor=Sony Ericsson
+ProductID=e0d4
+
+[Media]
+InputFormats=audio/amr
+OutputFormats=audio/mpeg;audio/3gpp;audio/aac;audio/amr;audio/amr-wb;audio/imelody;audio/mp4;audio/m4a;audio/midi;audio/vnd.m-realaudio;audio/vnd.rn-realaudio;audio/vnd.smaf;audio/x-m4b;audio/x-ms-wma;audio/x-wav;audio/xmf
+
+[storage]
+AudioFolders=Music/
+

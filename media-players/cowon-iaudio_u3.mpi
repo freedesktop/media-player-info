@@ -1,0 +1,18 @@
+[Device]
+AccessProtocol=storage
+VendorID=0e21
+Product=iAUDIO U3
+Vendor=Cowon
+ProductID=0700
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;application/ogg;audio/x-ms-wma;audio/flac;audio/x-wav
+
+[Playlist]
+Formats=audio/x-mpegurl
+
+[storage]
+PlaylistPath=PLAYLIST/%File
+AudioFolders=RECORDS/FM/;RECORDS/LINEIN/;RECORDS/VOICE/
+

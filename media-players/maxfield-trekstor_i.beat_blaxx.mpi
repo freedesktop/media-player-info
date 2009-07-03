@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=1890
+Product=TrekStor (i.Beat) Blaxx
+Vendor=Maxfield, M-Cody, TrekStor
+ProductID=0210
+
+[Media]
+InputFormats=audio/x-wav;audio/mpeg
+OutputFormats=audio/mpeg;application/ogg;audio/x-ms-wma;audio/x-wav;video/x-smv
+
+[storage]
+AudioFolders=MUSIC/;FM/;LINE-IN/;VOICE/
+

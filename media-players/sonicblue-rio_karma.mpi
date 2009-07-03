@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage;karma
+VendorID=045a
+Product=Rio Karma
+Vendor=SONICblue
+ProductID=5210
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;application/ogg
+

@@ -1,0 +1,18 @@
+[Device]
+AccessProtocol=storage
+VendorID=0421
+Product=Nokia Series 60 phones
+Vendor=Nokia
+USBModel=S60
+
+[Media]
+OutputFormats=audio/mpeg;audio/aac;audio/x-ms-wma;audio/x-wav
+
+[Playlist]
+Formats=audio/x-mpegurl
+
+[storage]
+RequiresEject=true
+PlaylistPath=Playlists/%File
+AudioFolders=Music/;Music Downloads/;Sounds/Digital/;Sounds/Simple/
+

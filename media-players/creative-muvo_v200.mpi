@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=041e
+Product=MuVo V200
+Vendor=Creative
+ProductID=4129
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-wav
+

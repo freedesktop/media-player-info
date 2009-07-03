@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=0471
+Product=Philips GoGear SA3125
+Vendor=Philips
+ProductID=084a
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-wav;video/x-smv
+
+[storage]
+AudioFolders=Music/;Video/;Voice/
+

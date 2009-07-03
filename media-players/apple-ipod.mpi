@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage;ipod
+USBVendor=*Apple*
+USBModel=*iPod*
+
+[Media]
+OutputFormats=audio/mpeg;audio/aac
+
+[storage]
+RequiresEject=true
+

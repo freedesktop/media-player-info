@@ -1,0 +1,13 @@
+[Device]
+AccessProtocol=storage
+VendorID=1949
+Product=Amazon Kindle
+Vendor=Amazon
+ProductID=0001
+
+[Media]
+OutputFormats=audio/mpeg
+
+[storage]
+AudioFolders=music/
+

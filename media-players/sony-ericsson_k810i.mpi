@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=0fce
+Product=Sony Ericsson K810i
+Vendor=Sony Ericsson
+ProductID=e0a1
+
+[Media]
+InputFormats=audio/amr
+OutputFormats=audio/mpeg;audio/aac;audio/x-wav;audio/amr
+
+[storage]
+AudioFolders=music/
+

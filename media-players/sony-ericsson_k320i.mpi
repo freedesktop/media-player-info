@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=0fce
+Product=Sony Ericsson K320i
+Vendor=Sony Ericsson
+ProductID=e072
+
+[Media]
+InputFormats=audio/AMR;audio/midi;audio/mpeg
+OutputFormats=audio/mpeg;audio/AMR
+
+[storage]
+AudioFolders=AUDIO/
+

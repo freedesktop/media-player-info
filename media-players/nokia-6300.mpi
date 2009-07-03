@@ -1,0 +1,13 @@
+[Device]
+AccessProtocol=storage
+VendorID=0421
+Product=Nokia 6300
+Vendor=Nokia
+ProductID=04fa
+
+[Media]
+OutputFormats=audio/mpeg;audio/aac;audio/x-ms-wma;audio/x-wav
+
+[storage]
+AudioFolders=music/
+

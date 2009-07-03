@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=04da
+Product=Panasonic SV-MP31V
+Vendor=Panasonic
+ProductID=3701
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;audio/x-ms-wma
+
+[storage]
+AudioFolders=PLAYER/
+

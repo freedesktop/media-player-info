@@ -1,0 +1,12 @@
+[Device]
+AccessProtocol=storage
+VendorID=045a
+ProductID=5042
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/audible
+
+[storage]
+DriveType=sd_mmc
+

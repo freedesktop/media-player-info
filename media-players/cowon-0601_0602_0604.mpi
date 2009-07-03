@@ -1,0 +1,17 @@
+[Device]
+AccessProtocol=storage
+VendorID=0e21
+Product=iAUDIO G3, 5
+Vendor=Cowon
+ProductID=0601|0602|0604
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;application/ogg;audio/x-ms-wma;audio/x-wav
+
+[Playlist]
+Formats=audio/x-mpegurl
+
+[storage]
+PlaylistPath=PLAYLIST/%File
+

@@ -1,0 +1,10 @@
+[Device]
+VendorID=0fca
+ProductID=8004
+
+[Media]
+OutputFormats=audio/mpeg
+
+[storage]
+AudioFolders=home/user/music/;home/user/videos/
+

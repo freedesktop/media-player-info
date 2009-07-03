@@ -1,0 +1,18 @@
+[Device]
+AccessProtocol=storage
+VendorID=4102
+Product=S10 UMS firmware v1.05 folder
+Vendor=iRiver
+ProductID=1023
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;audio/x-ms-wma;application/ogg
+
+[Playlist]
+Formats=audio/x-iriver-pla
+
+[storage]
+PlaylistPath=Playlists/%File
+AudioFolders=Music/;Recordings/
+

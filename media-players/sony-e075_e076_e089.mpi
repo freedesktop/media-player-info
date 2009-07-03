@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=0fce
+Product=Sony Ericsson K850i, W910i, W580i
+Vendor=Sony Ericsson
+ProductID=e075|e076|e089
+
+[Media]
+InputFormats=audio/amr
+OutputFormats=audio/mpeg;audio/aac;audio/x-wav;audio/amr;audio/amr-wb;audio/vnd.m-realaudio;audio/3gpp;audio/x-m4b;audio/mp4;audio/midi;audio/x-ms-wma
+
+[storage]
+AudioFolders=Music/
+

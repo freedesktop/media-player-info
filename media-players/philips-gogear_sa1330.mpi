@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=0471
+Product=Philips GoGear SA1330
+Vendor=Philips
+ProductID=0165
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-wav
+

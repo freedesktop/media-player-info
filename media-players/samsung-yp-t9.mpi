@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=04e8
+Product=Samsung YP-T9
+Vendor=Samsung
+ProductID=5055
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-ms-asf;audio/x-wav;application/ogg
+

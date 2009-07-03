@@ -1,0 +1,13 @@
+[Device]
+AccessProtocol=storage
+VendorID=04e8
+Product=Samsung Yepp YP-K3 (Firmware_4.06KR), YP-S2
+Vendor=Samsung
+ProductID=5080|5095
+
+[Media]
+OutputFormats=audio/mpeg;audio/x-ms-wma;application/ogg
+
+[storage]
+AudioFolders=Music/
+

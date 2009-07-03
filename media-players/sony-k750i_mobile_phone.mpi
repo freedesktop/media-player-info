@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=0fce
+Product=K750i mobile phone
+Vendor=Sony Ericsson
+ProductID=d016
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg
+
+[storage]
+AudioFolders=MP3/;MSSEMC/Media files/audio/
+

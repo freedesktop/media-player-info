@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=10c7
+Product=TS-300
+Vendor=TouchStone/WaveX
+ProductID=c000
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg
+
+[storage]
+AudioFolders=MP3/
+

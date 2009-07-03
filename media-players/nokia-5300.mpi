@@ -1,0 +1,14 @@
+[Device]
+VendorID=0421
+Product=Nokia 5300
+Vendor=Nokia
+AccessProtocol=storage
+Model=5300
+ProductID=04b9
+
+[Media]
+OutputFormats=audio/mpeg
+
+[storage]
+AudioFolders=Music/
+

@@ -1,0 +1,18 @@
+[Device]
+AccessProtocol=storage
+VendorID=4102
+Product=T7 Volcano UMS
+Vendor=iRiver
+ProductID=1043
+
+[Media]
+InputFormats=audio/x-ms-wma
+OutputFormats=audio/mpeg;application/ogg;audio/x-ms-wma
+
+[Playlist]
+Formats=audio/x-iriver-pla
+
+[storage]
+PlaylistPath=Playlists/%File
+AudioFolders=Music/;Recordings/
+

@@ -1,0 +1,18 @@
+[Device]
+AccessProtocol=storage
+VendorID=0492
+Product=Mini Player M6
+Vendor=Meizu
+ProductID=0140
+
+[Media]
+InputFormats=audio/mpeg
+OutputFormats=audio/mpeg;application/ogg;audio/x-ms-wma;audio/flac;audio/x-wav
+
+[Playlist]
+Formats=audio/x-mpegurl
+
+[storage]
+PlaylistPath=PLAYLISTS/%File
+AudioFolders=MUSIC/;RECORD/
+

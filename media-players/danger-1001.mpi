@@ -1,0 +1,13 @@
+[Device]
+AccessProtocol=storage
+VendorID=0da0
+Product=Hiptop/Sidekick 3
+Vendor=Danger Research
+ProductID=1001
+
+[Media]
+OutputFormats=audio/mpeg
+
+[storage]
+AudioFolders=Music/
+

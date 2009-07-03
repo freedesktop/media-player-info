@@ -1,0 +1,11 @@
+[Device]
+AccessProtocol=storage
+VendorID=04e8
+Product=Samsung Yepp YP-35
+Vendor=Samsung
+ProductID=5010
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-wav
+

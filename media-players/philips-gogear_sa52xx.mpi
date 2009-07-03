@@ -1,0 +1,14 @@
+[Device]
+AccessProtocol=storage
+VendorID=0471
+Product=Philips GoGear SA52XX
+Vendor=Philips
+ProductID=2022
+
+[Media]
+InputFormats=audio/x-wav;audio/mpeg
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-wav;audio/aac;video/x-ms-wmv;video/ms-video;video/mp4
+
+[storage]
+AudioFolders=Music/;Video/;RECORD/
+

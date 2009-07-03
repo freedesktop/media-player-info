@@ -1,0 +1,10 @@
+[Device]
+AccessProtocol=storage
+VendorID=069b
+Product=Lyra TH1100A
+Vendor=RCA
+ProductID=0778
+
+[Media]
+OutputFormats=audio/mpeg;audio/x-wav
+
