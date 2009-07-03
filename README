@@ -8,4 +8,6 @@ The music player capabilities are now described in .mpi files (which are
 .ini-like files) which you can find in media-players/. These mpi files are
 used to generate an udev rule to identify these devices. This rule associate
 an ID_MEDIA_PLAYER attribute to the media player devices which specifies the
-name of the .mpi file to use to find out the device capabilities.
+name of the .mpi file to use to find out the device capabilities. The .mpi 
+can then be looked up in $XDG_DATA_DIRS/media-player-id (see the XDG Base
+Directory Specification for more information about what this means).
