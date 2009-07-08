@@ -67,9 +67,7 @@ _hal_prop2mpi = {
 def match_op2glob(node):
     '''Convert FDI match operator to a glob.
     
-    Return pair (glob, identifier) with the actual glob, and a string
-    containing no glob characters or spaces, which is suitable as a file
-    name.
+    Return glob
     '''
     if node.attributes.has_key('string'):
         return node.attributes['string'].nodeValue
