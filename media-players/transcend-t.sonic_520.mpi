@@ -1,7 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=0402
-Product=Transcend T.Sonic 520
+Product=T.Sonic 520
 Vendor=Transcend
 ProductID=5661
 

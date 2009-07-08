@@ -1,7 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=0421
-Product=Nokia Series 60 phones
+Product=Series 60 phones
 Vendor=Nokia
 USBModel=S60
 

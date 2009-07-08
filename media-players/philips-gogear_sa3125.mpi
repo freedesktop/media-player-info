@@ -1,7 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=0471
-Product=Philips GoGear SA3125
+Product=GoGear SA3125
 Vendor=Philips
 ProductID=084a
 

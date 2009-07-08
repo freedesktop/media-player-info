@@ -1,6 +1,6 @@
 [Device]
 VendorID=0421
-Product=Nokia 5300
+Product=5300
 Vendor=Nokia
 AccessProtocol=storage
 Model=5300

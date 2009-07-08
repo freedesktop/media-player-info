@@ -1,7 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=0421
-Product=Nokia 6300
+Product=6300
 Vendor=Nokia
 ProductID=04fa
 

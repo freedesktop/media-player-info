@@ -1,7 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=0471
-Product=Philips GoGear SA52XX
+Product=GoGear SA52XX
 Vendor=Philips
 ProductID=2022
 

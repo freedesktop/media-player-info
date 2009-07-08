@@ -1,7 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=0421
-Product=Nokia 770, N800, N810
+Product=770, N800, N810
 Vendor=Nokia
 ProductID=0431;04c3;0096
 
