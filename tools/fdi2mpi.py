@@ -242,7 +242,7 @@ def parse_leaf_match(node, current_vendor, current_model):
 
     if current_model:
         attrs.setdefault('Device', {})['Product'] = current_model
-    if current_model:
+    if current_vendor:
         attrs.setdefault('Device', {})['Vendor'] = current_vendor
 
     fname = mkfilename(attrs, current_vendor)
