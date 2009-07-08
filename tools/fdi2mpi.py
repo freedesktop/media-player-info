@@ -72,37 +72,33 @@ def match_op2glob(node):
     name.
     '''
     if node.attributes.has_key('string'):
-        v = node.attributes['string'].nodeValue
-        return (v, v.replace(' ', '_').replace('/', '_').lower())
+        return node.attributes['string'].nodeValue
 
     if node.attributes.has_key('contains'):
-        v = node.attributes['contains'].nodeValue
-        return ('*' + v + '*', v.replace(' ', '_').replace('/', '_').lower())
+        return '*' + node.attributes['contains'].nodeValue + '*'
 
     if node.attributes.has_key('int'):
         v = node.attributes['int'].nodeValue
         if v != '1':
             v = '%04x' % int(v, 0)
-        return (v, v.replace(' ', '_').replace('/', '_').lower())
+	return v
 
     if node.attributes.has_key('int_outof'):
         alternatives = node.attributes['int_outof'].nodeValue.split(';')
         hex_alternatives = []
         for a in alternatives:
             hex_alternatives.append('%04x' % int(a, 0))
-        gl = ';'.join(hex_alternatives)
-        id = '_'.join([v.replace(' ', '_').lower() for v in hex_alternatives])
-        return (hex_alternatives, id)
+	return hex_alternatives
 
     if node.attributes.has_key('contains_ncase'):
         v = node.attributes['contains_ncase'].nodeValue 
         nocase_glob = ''.join(['[%s%s]' % (c.lower(), c.upper()) for c in v])
-        return ('*' + nocase_glob + '*', v.replace(' ', '_').lower())
+	return '*' + nocase_glob + '*'
 
     if node.attributes.has_key('prefix_ncase'):
         v = node.attributes['prefix_ncase'].nodeValue 
         nocase_glob = ''.join(['[%s%s]' % (c.lower(), c.upper()) for c in v])
-        return (nocase_glob + '*', v.replace(' ', '_').lower())
+	return nocase_glob + '*'
 
     raise NotImplementedError, 'unknown string operator ' + str(node.attributes.keys())
 
@@ -235,7 +231,7 @@ def parse_leaf_match(node, current_vendor, current_model):
         key = n.attributes['key'].nodeValue
         device_attr = _hal_match2mpi[key]
         if device_attr:
-            (glb, id) = match_op2glob(n)
+            glb = match_op2glob(n)
 	    if type(glb) == type([]):
                 attrs.setdefault('Device', {}).setdefault(device_attr, []).extend(glb)
 	    else:
