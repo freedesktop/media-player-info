@@ -2,7 +2,7 @@
 VendorID=22b8
 Vendor=Motorola
 AccessProtocol=ipod;storage
-Model=Motorola iTunes Phone;V3 series
+Model=Motorola iTunes Phone
 USBModel=*[iI][tT][uU][nN][eE][sS]*
 ProductID=4810
 
