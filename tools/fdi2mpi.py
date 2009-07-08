@@ -180,6 +180,25 @@ def mkfilename(attrs, current_vendor):
 
     return '%s-%s' % (v, m)
 
+def usb_ids_to_device_match(attrs):
+    '''convert the USB IDs we gathered to a DeviceMatch string appropriate
+    for mpi files'''
+
+    if not 'VendorID' in attrs['Device'].keys():
+	return
+
+    if not 'ProductID' in attrs['Device'].keys():
+	attrs['Device']['ProductID'] = [ '*' ]
+
+    device_match = ''
+    for id in attrs['Device']['ProductID']:
+	device_match += 'usb:'+ attrs['Device']['VendorID'][0] + ':' + id + ';'
+
+    attrs['Device']['DeviceMatch'] = device_match
+    del attrs['Device']['VendorID']
+    del attrs['Device']['ProductID']
+
+
 def write_mpi(attrs, filename):
     '''Write mpi file for attrs.'''
 
@@ -192,6 +211,8 @@ def write_mpi(attrs, filename):
 	vendor = attrs['Device']['Vendor']
 	if product.startswith(vendor):
 	    attrs['Device']['Product'] = product[len(vendor):].strip()
+
+    usb_ids_to_device_match(attrs)
 
     # only keep the most specific model name
     if attrs['Device'].has_key('Model'):
