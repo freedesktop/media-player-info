@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=066f
 Product=Jens of Sweeden (JoS) MP-120
 Vendor=Jetflash MP3 Player, AKA NAPA LCD-HD, AKA Medion, AKA Tevion  and other
-ProductID=82d4
+AccessProtocol=storage
+DeviceMatch=usb:066f:82d4;
 
 [Media]
 InputFormats=audio/mpeg

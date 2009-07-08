@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=04e8
 Product=YP-S5
 Vendor=Samsung
-ProductID=508c
+AccessProtocol=storage
+DeviceMatch=usb:04e8:508c;
 
 [Media]
 OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac

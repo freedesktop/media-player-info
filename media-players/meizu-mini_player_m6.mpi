@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0492
 Product=Mini Player M6
 Vendor=Meizu
-ProductID=0140
+AccessProtocol=storage
+DeviceMatch=usb:0492:0140;
 
 [Media]
 InputFormats=audio/mpeg

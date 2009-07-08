@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=066f
 Product=TrekStor vibez
 Vendor=Jetflash MP3 Player, AKA NAPA LCD-HD, AKA Medion, AKA Tevion  and other
-ProductID=842a
+AccessProtocol=storage
+DeviceMatch=usb:066f:842a;
 
 [Media]
 OutputFormats=audio/mpeg;application/ogg;audio/x-ms-wma;audio/x-wav;audio/flac

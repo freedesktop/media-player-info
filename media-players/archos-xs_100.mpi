@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0e79
 Product=XS 100
 Vendor=Archos
-ProductID=1205
+AccessProtocol=storage
+DeviceMatch=usb:0e79:1205;
 
 [Media]
 InputFormats=audio/mpeg;audio/x-ms-wma;audio/x-wav

@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0bb4
 Product=Windows Mobile PPC HTC Touch HD
 Vendor=High Tech Computer Corp.
-ProductID=0c25
+AccessProtocol=storage
+DeviceMatch=usb:0bb4:0c25;
 
 [Media]
 OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-wav

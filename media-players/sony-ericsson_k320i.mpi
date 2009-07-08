@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0fce
 Product=K320i
 Vendor=Sony Ericsson
-ProductID=e072
+AccessProtocol=storage
+DeviceMatch=usb:0fce:e072;
 
 [Media]
 InputFormats=audio/AMR;audio/midi;audio/mpeg

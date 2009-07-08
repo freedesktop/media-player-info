@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=041e
 Product=Zen Nano Plus
 Vendor=Creative
-ProductID=4139
+AccessProtocol=storage
+DeviceMatch=usb:041e:4139;
 
 [Media]
 InputFormats=audio/mpeg

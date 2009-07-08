@@ -1,10 +1,9 @@
 [Device]
-VendorID=22b8
 Product=ROKR e2 Memory Card mode
 Vendor=Motorola
 AccessProtocol=storage
+DeviceMatch=usb:22b8:608d;
 Model=ROKR e2
-ProductID=608d
 
 [Media]
 InputFormats=audio/x-wav

@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0402
 Product=T.Sonic 520
 Vendor=Transcend
-ProductID=5661
+AccessProtocol=storage
+DeviceMatch=usb:0402:5661;
 
 [Media]
 InputFormats=audio/x-wav

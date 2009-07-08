@@ -1,8 +1,7 @@
 [Device]
-VendorID=0e21
 Product=iAUDIO U2
 Vendor=Cowon
-ProductID=0600
+DeviceMatch=usb:0e21:0600;
 
 [Media]
 InputFormats=audio/mpeg

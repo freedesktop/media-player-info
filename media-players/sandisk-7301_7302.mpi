@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0781
 Product=Sansa e130, e140
 Vendor=SanDisk
-ProductID=7301;7302
+AccessProtocol=storage
+DeviceMatch=usb:0781:7301;usb:0781:7302;
 
 [Media]
 InputFormats=audio/x-wav

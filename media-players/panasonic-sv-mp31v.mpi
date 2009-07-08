@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=04da
 Product=SV-MP31V
 Vendor=Panasonic
-ProductID=3701
+AccessProtocol=storage
+DeviceMatch=usb:04da:3701;
 
 [Media]
 InputFormats=audio/mpeg

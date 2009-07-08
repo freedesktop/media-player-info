@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage;karma
-VendorID=045a
 Product=Rio Karma
 Vendor=SONICblue
-ProductID=5210
+AccessProtocol=storage;karma
+DeviceMatch=usb:045a:5210;
 
 [Media]
 InputFormats=audio/x-wav

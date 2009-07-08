@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0781
 Product=Sansa m250, m230, e270
 Vendor=SanDisk
-ProductID=7401;7421;7431
+AccessProtocol=storage
+DeviceMatch=usb:0781:7401;usb:0781:7421;usb:0781:7431;
 
 [Media]
 InputFormats=audio/mpeg;audio/x-ms-wma

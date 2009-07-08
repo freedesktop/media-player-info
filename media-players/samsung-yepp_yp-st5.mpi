@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=04e8
 Product=Yepp YP-ST5
 Vendor=Samsung
-ProductID=5021
+AccessProtocol=storage
+DeviceMatch=usb:04e8:5021;
 
 [Media]
 InputFormats=audio/mpeg

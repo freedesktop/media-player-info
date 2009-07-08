@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0e21
 Product=iAUDIO X5, M5, F2, 7
 Vendor=Cowon
-ProductID=0510;0520;0710;0730;0750
+AccessProtocol=storage
+DeviceMatch=usb:0e21:0510;usb:0e21:0520;usb:0e21:0710;usb:0e21:0730;usb:0e21:0750;
 
 [Media]
 InputFormats=audio/mpeg

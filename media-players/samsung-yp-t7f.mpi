@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=04e8
 Product=YP-T7F
 Vendor=Samsung
-ProductID=503d
+AccessProtocol=storage
+DeviceMatch=usb:04e8:503d;
 
 [Media]
 InputFormats=audio/x-wav

@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0471
 Product=GoGear SA1330
 Vendor=Philips
-ProductID=0165
+AccessProtocol=storage
+DeviceMatch=usb:0471:0165;
 
 [Media]
 InputFormats=audio/x-wav

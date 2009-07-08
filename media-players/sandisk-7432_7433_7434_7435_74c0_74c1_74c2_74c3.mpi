@@ -1,8 +1,7 @@
 [Device]
 AccessProtocol=storage
-VendorID=0781
+DeviceMatch=usb:0781:7432;usb:0781:7433;usb:0781:7434;usb:0781:7435;usb:0781:74c0;usb:0781:74c1;usb:0781:74c2;usb:0781:74c3;
 Vendor=SanDisk
-ProductID=7432;7433;7434;7435;74c0;74c1;74c2;74c3
 
 [Media]
 InputFormats=audio/x-wav

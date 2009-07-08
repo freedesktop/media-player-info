@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=041e
 Product=Zen Stone Plus
 Vendor=Creative
-ProductID=4155
+AccessProtocol=storage
+DeviceMatch=usb:041e:4155;
 
 [Media]
 InputFormats=audio/x-wav

@@ -1,8 +1,7 @@
 [Device]
 AccessProtocol=storage
-VendorID=045a
+DeviceMatch=usb:045a:5042;
 Vendor=SONICblue
-ProductID=5042
 
 [Media]
 InputFormats=audio/x-wav

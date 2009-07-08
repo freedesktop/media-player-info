@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=069b
 Product=Thomson PDP9512FM
 Vendor=RCA
-ProductID=076b
+AccessProtocol=storage
+DeviceMatch=usb:069b:076b;
 
 [Media]
 InputFormats=audio/x-wav

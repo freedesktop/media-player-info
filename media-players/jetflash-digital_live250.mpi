@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=066f
 Product=Digital Live250
 Vendor=Jetflash MP3 Player, AKA NAPA LCD-HD, AKA Medion, AKA Tevion  and other
-ProductID=80e0
+AccessProtocol=storage
+DeviceMatch=usb:066f:80e0;
 
 [Media]
 InputFormats=audio/x-wav

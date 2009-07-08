@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=066f
 Product=EXATEL i-BEAD100 Player, Medion MD41512 / Tevion 41512 , Transcend (T.Sonic ??? White), TrekStor i.Beat 115, Transcend (T.Sonic 610), TrekStor i.Beat jump MP3 Player 
 Vendor=Jetflash MP3 Player, AKA NAPA LCD-HD, AKA Medion, AKA Tevion  and other
-ProductID=8000;8008;8206;821f;829c;82e0;835d
+AccessProtocol=storage
+DeviceMatch=usb:066f:8000;usb:066f:8008;usb:066f:8206;usb:066f:821f;usb:066f:829c;usb:066f:82e0;usb:066f:835d;
 
 [Media]
 InputFormats=audio/x-wav

@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0fce
 Product=K750i mobile phone
 Vendor=Sony Ericsson
-ProductID=d016
+AccessProtocol=storage
+DeviceMatch=usb:0fce:d016;
 
 [Media]
 InputFormats=audio/x-wav

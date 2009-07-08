@@ -1,7 +1,6 @@
 [Device]
-VendorID=0fca
+DeviceMatch=usb:0fca:8004;
 Vendor=RIM
-ProductID=8004
 
 [Media]
 OutputFormats=audio/mpeg

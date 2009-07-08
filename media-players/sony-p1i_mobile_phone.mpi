@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0fce
 Product=P1i mobile phone
 Vendor=Sony Ericsson
-ProductID=e092
+AccessProtocol=storage
+DeviceMatch=usb:0fce:e092;
 
 [Media]
 OutputFormats=audio/mpeg;audio/3gpp;audio/mp4;audio/aac;audio/vnd.rn-realaudio;audio/x-amr;audio/x-imy;audio/x-midi;audio/x-ms-wma;audio/x-wav

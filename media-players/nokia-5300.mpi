@@ -1,10 +1,9 @@
 [Device]
-VendorID=0421
 Product=5300
 Vendor=Nokia
 AccessProtocol=storage
+DeviceMatch=usb:0421:04b9;
 Model=5300
-ProductID=04b9
 
 [Media]
 OutputFormats=audio/mpeg

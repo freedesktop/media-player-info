@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=04e8
 Product=YP-Z5
 Vendor=Samsung
-ProductID=5041
+AccessProtocol=storage
+DeviceMatch=usb:04e8:5041;
 
 [Media]
 InputFormats=audio/x-wav

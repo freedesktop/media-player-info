@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=04e8
 Product=YP-J70
 Vendor=Samsung
-ProductID=5032
+AccessProtocol=storage
+DeviceMatch=usb:04e8:5032;
 
 [Media]
 InputFormats=audio/x-wav

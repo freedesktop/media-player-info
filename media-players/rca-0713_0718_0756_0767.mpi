@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=069b
 Product=Lyra RD1072, RD2212, MC2021C, TH1501
 Vendor=RCA
-ProductID=0713;0718;0756;0767
+AccessProtocol=storage
+DeviceMatch=usb:069b:0713;usb:069b:0718;usb:069b:0756;usb:069b:0767;
 
 [Media]
 InputFormats=audio/x-wav

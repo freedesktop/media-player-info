@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0421
 Product=6300
 Vendor=Nokia
-ProductID=04fa
+AccessProtocol=storage
+DeviceMatch=usb:0421:04fa;
 
 [Media]
 OutputFormats=audio/mpeg;audio/aac;audio/x-ms-wma;audio/x-wav

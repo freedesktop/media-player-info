@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0fce
 Product=K810i
 Vendor=Sony Ericsson
-ProductID=e0a1
+AccessProtocol=storage
+DeviceMatch=usb:0fce:e0a1;
 
 [Media]
 InputFormats=audio/amr

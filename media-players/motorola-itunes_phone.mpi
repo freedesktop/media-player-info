@@ -1,10 +1,9 @@
 [Device]
-VendorID=22b8
+DeviceMatch=usb:22b8:4810;
 Vendor=Motorola
 AccessProtocol=ipod;storage
 Model=Motorola iTunes Phone
 USBModel=*[iI][tT][uU][nN][eE][sS]*
-ProductID=4810
 
 [Media]
 InputFormats=audio/x-wav

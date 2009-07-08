@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=4102
 Product=S10 UMS firmware v1.05 folder
 Vendor=iRiver
-ProductID=1023
+AccessProtocol=storage
+DeviceMatch=usb:4102:1023;
 
 [Media]
 InputFormats=audio/mpeg

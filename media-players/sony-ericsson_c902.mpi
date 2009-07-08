@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0fce
 Product=C902
 Vendor=Sony Ericsson
-ProductID=e0d4
+AccessProtocol=storage
+DeviceMatch=usb:0fce:e0d4;
 
 [Media]
 InputFormats=audio/amr

@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=1890
 Product=M-Cody M20
 Vendor=Maxfield, M-Cody, TrekStor
-ProductID=0001
+AccessProtocol=storage
+DeviceMatch=usb:1890:0001;
 
 [Media]
 InputFormats=audio/x-wav

@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=10d6
 Product=Foston 128/256MB / MPMan MP-Ki 128 Player, A similar 2GB MP3 Player
 Vendor=Foston, MPMan, Actions Semiconductor
-ProductID=1100;1101
+AccessProtocol=storage
+DeviceMatch=usb:10d6:1100;usb:10d6:1101;
 
 [Media]
 InputFormats=audio/x-wav

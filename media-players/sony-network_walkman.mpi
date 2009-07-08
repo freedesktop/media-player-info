@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=054c
 Product=Network Walkman
 Vendor=Sony
-ProductID=01fb
+AccessProtocol=storage
+DeviceMatch=usb:054c:01fb;
 
 [Media]
 InputFormats=audio/mpeg

@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=04e8
 Product=Yepp YP-35
 Vendor=Samsung
-ProductID=5010
+AccessProtocol=storage
+DeviceMatch=usb:04e8:5010;
 
 [Media]
 InputFormats=audio/x-wav

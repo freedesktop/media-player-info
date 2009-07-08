@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=041e
 Product=MuVo V200
 Vendor=Creative
-ProductID=4129
+AccessProtocol=storage
+DeviceMatch=usb:041e:4129;
 
 [Media]
 InputFormats=audio/x-wav

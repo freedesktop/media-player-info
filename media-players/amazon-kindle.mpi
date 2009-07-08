@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=1949
 Product=Kindle
 Vendor=Amazon
-ProductID=0001
+AccessProtocol=storage
+DeviceMatch=usb:1949:0001;
 
 [Media]
 OutputFormats=audio/mpeg

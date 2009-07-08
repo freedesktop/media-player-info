@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=19ff
 Product=NS-8V24
 Vendor=Insignia
-ProductID=0308
+AccessProtocol=storage
+DeviceMatch=usb:19ff:0308;
 
 [Media]
 InputFormats=audio/mpeg;audio/x-ms-wma

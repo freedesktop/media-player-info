@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=4102
 Product=T7 Volcano UMS
 Vendor=iRiver
-ProductID=1043
+AccessProtocol=storage
+DeviceMatch=usb:4102:1043;
 
 [Media]
 InputFormats=audio/x-ms-wma

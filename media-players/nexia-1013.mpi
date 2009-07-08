@@ -1,8 +1,7 @@
 [Device]
 AccessProtocol=storage
-VendorID=1718
+DeviceMatch=usb:1718:1013;
 Vendor=Nexia
-ProductID=1013
 
 [Media]
 InputFormats=audio/mpeg;audio/x-ms-wma

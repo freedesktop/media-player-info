@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=054c
 Product=Walkman NWD-B105
 Vendor=Sony
-ProductID=0317
+AccessProtocol=storage
+DeviceMatch=usb:054c:0317;
 
 [Media]
 InputFormats=audio/mpeg

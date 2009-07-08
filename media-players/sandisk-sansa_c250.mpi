@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0781
 Product=Sansa c250
 Vendor=SanDisk
-ProductID=7451
+AccessProtocol=storage
+DeviceMatch=usb:0781:7451;
 
 [Media]
 InputFormats=audio/x-wav

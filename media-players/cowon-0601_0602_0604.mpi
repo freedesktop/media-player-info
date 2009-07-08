@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0e21
 Product=iAUDIO G3, 5
 Vendor=Cowon
-ProductID=0601;0602;0604
+AccessProtocol=storage
+DeviceMatch=usb:0e21:0601;usb:0e21:0602;usb:0e21:0604;
 
 [Media]
 InputFormats=audio/mpeg

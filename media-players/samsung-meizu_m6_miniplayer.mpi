@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=04e8
 Product=Meizu M6 MiniPlayer
 Vendor=Samsung
-ProductID=5a0f
+AccessProtocol=storage
+DeviceMatch=usb:04e8:5a0f;
 
 [Media]
 InputFormats=audio/x-wav

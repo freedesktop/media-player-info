@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=07b4
 Product=DS-2 voice recorder
 Vendor=Olympus
-ProductID=020e
+AccessProtocol=storage
+DeviceMatch=usb:07b4:020e;
 
 [Media]
 OutputFormats=audio/mpeg;audio/x-ms-wma

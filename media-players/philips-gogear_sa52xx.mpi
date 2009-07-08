@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0471
 Product=GoGear SA52XX
 Vendor=Philips
-ProductID=2022
+AccessProtocol=storage
+DeviceMatch=usb:0471:2022;
 
 [Media]
 InputFormats=audio/x-wav;audio/mpeg

@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=04e8
 Product=YP-T9
 Vendor=Samsung
-ProductID=5055
+AccessProtocol=storage
+DeviceMatch=usb:04e8:5055;
 
 [Media]
 InputFormats=audio/mpeg

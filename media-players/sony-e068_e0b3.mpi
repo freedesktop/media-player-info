@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0fce
 Product=W880i/890i Walkman Phone
 Vendor=Sony Ericsson
-ProductID=e068;e0b3
+AccessProtocol=storage
+DeviceMatch=usb:0fce:e068;usb:0fce:e0b3;
 
 [Media]
 OutputFormats=audio/mpeg;audio/aac

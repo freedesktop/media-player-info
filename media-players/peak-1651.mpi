@@ -1,8 +1,7 @@
 [Device]
 AccessProtocol=storage
-VendorID=0d7d
+DeviceMatch=usb:0d7d:1651;
 Vendor=Peak Digital Audio Player
-ProductID=1651
 
 [Media]
 InputFormats=audio/x-wav

@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0dda
 Product=IC1110 V1.0A, hama DMP-100
 Vendor=ISCI, hama, no-name
-ProductID=0302
+AccessProtocol=storage
+DeviceMatch=usb:0dda:0302;
 
 [Media]
 OutputFormats=audio/mpeg

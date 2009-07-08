@@ -1,8 +1,7 @@
 [Device]
 AccessProtocol=storage
-VendorID=0fce
+DeviceMatch=usb:0fce:d039;
 Vendor=Sony Ericsson
-ProductID=d039
 
 [Media]
 InputFormats=audio/x-amr

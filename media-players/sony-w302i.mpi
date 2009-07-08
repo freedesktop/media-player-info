@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0fce
 Product=W302i
 Vendor=Sony Ericsson
-ProductID=e0c8
+AccessProtocol=storage
+DeviceMatch=usb:0fce:e0c8;
 
 [Media]
 InputFormats=audio/x-wav

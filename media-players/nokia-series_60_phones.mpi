@@ -1,8 +1,8 @@
 [Device]
-AccessProtocol=storage
-VendorID=0421
 Product=Series 60 phones
 Vendor=Nokia
+AccessProtocol=storage
+DeviceMatch=usb:0421:*;
 USBModel=S60
 
 [Media]
