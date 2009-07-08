@@ -266,6 +266,12 @@ def parse_fdi(fdi):
         # filter out a few weird cases in current hal-info
         if c and ('No-name' in c or 'require' in c or 'media files' in c):
             c = None
+	if c and ('TODO' in c):
+            c = 'Apple'
+        if c and ('MegaScreen' in c):
+            c = 'Nexia'
+        if c and ('PSP' in c):
+            c = 'Sony'
 
         if c:
             match_key = match_node.attributes['key'].nodeValue
