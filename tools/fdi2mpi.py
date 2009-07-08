@@ -90,10 +90,9 @@ def match_op2glob(node):
         hex_alternatives = []
         for a in alternatives:
             hex_alternatives.append('%04x' % int(a, 0))
-
         gl = ';'.join(hex_alternatives)
         id = '_'.join([v.replace(' ', '_').lower() for v in hex_alternatives])
-        return (gl, id)
+        return (hex_alternatives, id)
 
     if node.attributes.has_key('contains_ncase'):
         v = node.attributes['contains_ncase'].nodeValue 
@@ -157,7 +156,7 @@ def mkfilename(attrs, current_vendor):
     if 'USBModel' in attrs.get('Device', {}):
         m = attrs['Device']['USBModel']
     # if we only have a single product ID, attempt to get nicer name
-    if ';' not in attrs['Device'].get('ProductID', [''])[0] and \
+    if len(attrs['Device'].get('ProductID', [''])) <= 1 and \
             'Product' in attrs.get('Device', {}) and \
             '/' not in attrs['Device']['Product']:
         m = attrs['Device']['Product']
@@ -237,7 +236,10 @@ def parse_leaf_match(node, current_vendor, current_model):
         device_attr = _hal_match2mpi[key]
         if device_attr:
             (glb, id) = match_op2glob(n)
-            attrs.setdefault('Device', {}).setdefault(device_attr, []).append(glb)
+	    if type(glb) == type([]):
+                attrs.setdefault('Device', {}).setdefault(device_attr, []).extend(glb)
+	    else:
+                attrs.setdefault('Device', {}).setdefault(device_attr, []).append(glb)
         while True:
             n = n.parentNode
             if n is None or (n.nodeType == xml.dom.minidom.Node.ELEMENT_NODE and 
