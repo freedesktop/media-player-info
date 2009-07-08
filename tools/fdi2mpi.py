@@ -193,6 +193,13 @@ def write_mpi(attrs, filename):
     # define order of sections
     sections = ['Device', 'Media', 'Playlist', 'storage']
 
+    # a lot of product names start with vendor name
+    if attrs['Device'].has_key('Vendor') and attrs['Device'].has_key('Product'):
+	product = attrs['Device']['Product']
+	vendor = attrs['Device']['Vendor']
+	if product.startswith(vendor):
+	    attrs['Device']['Product'] = product[len(vendor):].strip()
+
     assert set(attrs.keys()) <= set(sections)
 
     f = open(os.path.join('media-players', filename + '.mpi'), 'w')
