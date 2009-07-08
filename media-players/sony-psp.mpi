@@ -1,6 +1,7 @@
 [Device]
 AccessProtocol=storage
 USBVendor=[sS][oO][nN][yY]*
+Vendor=Sony
 USBModel=*PSP*
 
 [Media]

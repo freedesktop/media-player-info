@@ -1,6 +1,7 @@
 [Device]
 AccessProtocol=storage;ipod
 USBVendor=*Apple*
+Vendor=Apple
 USBModel=*iPod*
 
 [Media]

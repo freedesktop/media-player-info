@@ -1,6 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=045a
+Vendor=SONICblue
 ProductID=5042
 
 [Media]

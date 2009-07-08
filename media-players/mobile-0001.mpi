@@ -1,6 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=1011
+Vendor=Mobile Media Tech.
 ProductID=0001
 
 [Media]

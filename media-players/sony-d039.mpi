@@ -1,6 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=0fce
+Vendor=Sony Ericsson
 ProductID=d039
 
 [Media]

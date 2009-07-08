@@ -1,6 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=0f9c
+Vendor=Q-be (Hyun Won, Inc.)
 ProductID=9111
 
 [Media]

@@ -1,6 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=0d7d
+Vendor=Peak Digital Audio Player
 ProductID=1651
 
 [Media]

@@ -1,6 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=1718
+Vendor=Nexia
 ProductID=1013
 
 [Media]

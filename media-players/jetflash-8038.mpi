@@ -1,6 +1,7 @@
 [Device]
 AccessProtocol=storage
 VendorID=066f
+Vendor=Jetflash MP3 Player, AKA NAPA LCD-HD, AKA Medion, AKA Tevion  and other
 ProductID=8038
 
 [Media]
