@@ -155,7 +155,7 @@ def mkfilename(attrs, current_vendor):
             '/' not in attrs['Device']['Product']:
         m = attrs['Device']['Product']
     if 'Model' in attrs.get('Device', {}):
-        m = attrs['Device']['Model']
+        m = attrs['Device']['Model'][0]
 
     if type(m) == type([]):
         m = '_'.join(m)
@@ -192,6 +192,10 @@ def write_mpi(attrs, filename):
 	vendor = attrs['Device']['Vendor']
 	if product.startswith(vendor):
 	    attrs['Device']['Product'] = product[len(vendor):].strip()
+
+    # only keep the most specific model name
+    if attrs['Device'].has_key('Model'):
+        attrs['Device']['Model'] = attrs['Device']['Model'][0]
 
     assert set(attrs.keys()) <= set(sections)
 
