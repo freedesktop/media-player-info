@@ -1,7 +1,7 @@
 INTRODUCTION
 ============
 
-media-player-id is a repository of data files describing media player
+media-player-info is a repository of data files describing media player
 (mostly USB Mass Storage ones) capabilities. These files contain information
 about the directory layout to use to add music to these devices, about the
 supported file formats, ... These capabilities used to be provided by HAL 
@@ -13,7 +13,7 @@ The music player capabilities are now described in .mpi files (which are
 used to generate an udev rule to identify these devices. This rule associate
 an ID_MEDIA_PLAYER attribute to the media player devices. This attribute
 specifies the name of the .mpi file to use to find out the device
-capabilities. The .mpi can then be looked up in $XDG_DATA_DIRS/media-player-id
+capabilities. The .mpi can then be looked up in $XDG_DATA_DIRS/media-player-info
 (see the XDG Base Directory Specification for more information about what
 this means).
 
@@ -60,7 +60,7 @@ is a semi-colon-separated list of media mime types (audio/mpeg, audio/x-wav,
 
 The [Playlist] section describes the player playlist capabilites. If it's
 absent, it means the player doesn't support playlists (or that the information
-contained in media-player-id is incomplete, in such a case, please email us
+contained in media-player-info is incomplete, in such a case, please email us
 or file a bug).
 - Formats: it's a semi-colon-separated list of the mime-types of the
   playlist formats supported by the device
