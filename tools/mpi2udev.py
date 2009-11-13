@@ -39,7 +39,7 @@ def parse_mpi(mpi):
         print '#', m
     except ConfigParser.NoOptionError:
         pass
-    for name in ['usbvendor', 'usbproduct']:
+    for name in ['usbvendor', 'usbproduct', 'usbmodel']:
         try:
             value = cp.get('Device', name)
             print mpi2udev[name] % value, ',',
