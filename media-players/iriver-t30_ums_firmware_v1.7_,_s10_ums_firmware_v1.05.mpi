@@ -2,7 +2,7 @@
 Product=T30 UMS firmware v1.7 , S10 UMS firmware v1.05
 Vendor=iRiver
 AccessProtocol=storage
-DeviceMatch=usb:4102:1019;
+DeviceMatch=usb:4102:1023;
 
 [Media]
 InputFormats=audio/mpeg

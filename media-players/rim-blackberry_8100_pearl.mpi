@@ -1,0 +1,13 @@
+[Device]
+Product=Blackberry 8100 (Pearl)
+Vendor=RIM
+AccessProtocol=storage
+DeviceMatch=usb:0fca:0004;
+
+[Media]
+InputFormats=audio/mp4;audio/mpeg
+OutputFormats=audio/mpeg
+
+[storage]
+AudioFolders=blackberry/music/;blackberry/videos/
+

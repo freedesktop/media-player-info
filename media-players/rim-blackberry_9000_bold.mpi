@@ -1,0 +1,13 @@
+[Device]
+Product=Blackberry 9000 (Bold)
+Vendor=RIM
+AccessProtocol=storage
+DeviceMatch=usb:0fca:8004;
+
+[Media]
+InputFormats=audio/mp4;audio/mpeg
+OutputFormats=audio/mpeg
+
+[storage]
+AudioFolders=BlackBerry/music/;BlackBerry/videos/;home/user/music/;home/user/videos/
+
