@@ -1,13 +1,11 @@
 [Device]
-USBVendor=*Apple*
-Product=iPods with video
-Vendor=Apple
 AccessProtocol=storage;ipod
+USBVendor=*Apple*
+Vendor=Apple
 USBModel=*iPod*
-ProductID=1261;1262
 
 [Media]
-OutputFormats=audio/mpeg;video/mp4;audio/aac;audio/x-wav;audio/x-aiff
+OutputFormats=audio/mpeg;audio/aac;audio/x-wav;audio/x-aiff
 
 [storage]
 RequiresEject=true

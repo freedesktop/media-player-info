@@ -1,0 +1,10 @@
+[Device]
+AccessProtocol=storage;ipod
+USBVendor=*Apple*
+Product=iPods with video
+Vendor=Apple
+ProductID=1261;1262
+
+[Media]
+OutputFormats=audio/mpeg;audio/aac;audio/x-wav;audio/x-aiff;video/mp4
+
