@@ -72,7 +72,7 @@ def parse_mpi(mpi):
 #
 
 # udev rules header
-print '''ACTION!="add", GOTO="media_player_end"
+print '''ACTION!="add|change", GOTO="media_player_end"
 SUBSYSTEM!="block", GOTO="media_player_end"
 SUBSYSTEMS=="usb", GOTO="media_player_start"
 GOTO="media_player_end"
