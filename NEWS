@@ -1,3 +1,10 @@
+media-player-info 4
+===================
+- Fix udev rules for change events. (LP #454654)
+- Take USBProduct into account when generating udev rules, to avoid overly
+  generic rules. (LP #477976)
+- Sync with current hal-info to get the latest music players.
+
 media-player-info 3
 ===================
 
