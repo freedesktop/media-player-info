@@ -1,0 +1,14 @@
+[Device]
+Vendor=Motorola
+Product=Droid
+AccessProtocol=storage
+DeviceMatch=usb:22b8:41d9;
+
+[Media]
+OutputFormats=audio/mpeg;audio/aac;application/ogg
+
+[storage]
+RequiresEject=true
+AudioFolders=music
+FolderDepth=4
+
