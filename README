@@ -47,7 +47,7 @@ The [Device] section contains information about the media player:
   the USB vendor ID, <pid> is the USB product ID). This lists all the USB
   that are described by the current mpi file. Additional filtering on the 
   supported devices might be done through other fields in the Device section.
-
+- Icon: (optional) Icon name to use instead of the default "media-player".
 
 The [Media] section describes in more details which media formats the player
 supports. For now it only describes audio capabilities, but video or artwork

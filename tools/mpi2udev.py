@@ -61,11 +61,20 @@ def parse_mpi(mpi):
 
         for vid, pids in usbids.iteritems():
             print 'ATTRS{idVendor}=="%s" , ATTRS{idProduct}=="%s"'% (vid, '|'.join(pids)), ',',
-            print 'ENV{ID_MEDIA_PLAYER}="%s"' % os.path.splitext(os.path.basename(mpi))[0]
+            print 'ENV{ID_MEDIA_PLAYER}="%s"' % os.path.splitext(os.path.basename(mpi))[0],
 
     except ConfigParser.NoOptionError:
-        print 'ENV{ID_MEDIA_PLAYER}="%s"' % os.path.splitext(os.path.basename(mpi))[0]
+        print 'ENV{ID_MEDIA_PLAYER}="%s"' % os.path.splitext(os.path.basename(mpi))[0],
 
+    # do we have an icon?
+    try:
+        icon = cp.get('Device', 'icon')
+        print 'ENV{UDISKS_PRESENTATION_ICON_NAME}="%s"' % icon,
+    except ConfigParser.NoOptionError:
+        pass
+
+    # terminate rule line
+    print
 
 #
 # main
