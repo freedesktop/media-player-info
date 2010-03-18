@@ -1,3 +1,21 @@
+media-player-info 5 (2010-03-18)
+================================
+Dallen Wilson (1):
+      add iRiver H320, H340 (LP: #487963)
+
+Jonathan Matthew (1):
+      add Amazon Kindle 2
+
+Martin Pitt (8):
+      Move udev rules to a much earlier place
+      Add Motorola Droid (LP: #495764)
+      Add Philips GoGear RaGa (SA1942/02) (LP: #528948)
+      Add Creative Zen Touch. (LP: #478789)
+      add .gitignore
+      Add Samsung U5
+      Add support for per-device icons
+      apple-ipod.mpi: Set "multimedia-player-ipod" icon
+
 media-player-info 4
 ===================
 - Fix udev rules for change events. (LP #454654)
