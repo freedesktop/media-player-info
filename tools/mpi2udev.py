@@ -82,6 +82,10 @@ def parse_mpi(mpi):
 
 # udev rules header
 print '''ACTION!="add|change", GOTO="media_player_end"
+# catch MTP devices
+ENV{DEVTYPE}=="usb_device", GOTO="media_player_start"
+
+# catch UMS devices
 SUBSYSTEM!="block", GOTO="media_player_end"
 SUBSYSTEMS=="usb", GOTO="media_player_start"
 GOTO="media_player_end"
