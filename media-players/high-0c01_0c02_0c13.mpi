@@ -3,6 +3,7 @@ Product=Android Phone, HTC Diamond
 Vendor=High Tech Computer Corp.
 AccessProtocol=storage
 DeviceMatch=usb:0bb4:0c01;usb:0bb4:0c02;usb:0bb4:0c13;
+Icon=phone-htc-g1-white
 
 [Media]
 OutputFormats=audio/mpeg;audio/x-ms-wma;audio/3gpp;audio/mp4;audio/aac;audio/vnd.rn-realaudio;audio/x-midi;audio/x-wav;application/ogg
