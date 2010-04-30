@@ -39,15 +39,22 @@ Each mpi file is separated in several sections:
 
 
 The [Device] section contains information about the media player:
-- Product: human-readable product (device) name 
-- Vendor: human-readable vendor name 
+- Product: human-readable product (device) name
+- Vendor: human-readable vendor name
 - AccessProtocol: the way this device is accessed. For now the only
   supported value is "storage" for USB mass storage devices.
-- DeviceMatch: semi-colon separated list of "usb:<vid>:<pid>" values (<vid> is
-  the USB vendor ID, <pid> is the USB product ID). This lists all the USB
-  that are described by the current mpi file. Additional filtering on the 
-  supported devices might be done through other fields in the Device section.
 - Icon: (optional) Icon name to use instead of the default "media-player".
+
+For actually identifying a player from hardware information in /sys, there are
+two possibilities:
+
+- DeviceMatch field: semi-colon separated list of "usb:<vid>:<pid>" values
+  (<vid> is the USB vendor ID, <pid> is the USB product ID). This lists all the
+  USB that are described by the current mpi file.
+
+- A combination of "USBVendor", "USBProduct", "USBModel", and "USBManufacturer"
+  strings (which map to the corresponding sysfs fields). You can use the '*'
+  wildcard. See apple-ipod.mpi for an example.
 
 The [Media] section describes in more details which media formats the player
 supports. For now it only describes audio capabilities, but video or artwork
