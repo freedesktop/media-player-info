@@ -26,6 +26,8 @@ mpi2udev = {
     'productid': 'ATTRS{idProduct}=="%s"',
     'usbvendor': 'ATTRS{vendor}=="%s"',
     'usbmodel': 'ATTRS{model}=="%s"',
+    'usbproduct': 'ATTRS{product}=="%s"',
+    'usbmanufacturer': 'ATTRS{manufacturer}=="%s"',
 }
 
 def parse_mpi(mpi):
@@ -39,7 +41,7 @@ def parse_mpi(mpi):
         print '#', m
     except ConfigParser.NoOptionError:
         pass
-    for name in ['usbvendor', 'usbproduct', 'usbmodel']:
+    for name in ['usbvendor', 'usbproduct', 'usbmodel', 'usbmanufacturer']:
         try:
             value = cp.get('Device', name)
             print mpi2udev[name] % value, ',',
