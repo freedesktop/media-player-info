@@ -10,6 +10,9 @@ Bastien Nocera (1):
 Bertrand Lorentz (1):
       Add Sony Ericsson Xperia X10
 
+Christophe Fergeau (1):
+      Add another Samsung Galaxy ID
+
 Martin Pitt (8):
       Dual-license fdi2mpi.py under X11, too
       fdi2mpi.py: fix copy&paste typo in license
