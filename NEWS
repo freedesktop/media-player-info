@@ -1,3 +1,28 @@
+media-player-info 7 (2010-08-24)
+================================
+Angel Abad (2):
+      Add Sony Ericsson Xperia X10
+      Update Sony Ericsson Xperia X10
+
+Bastien Nocera (1):
+      Add parser tools to the distribution
+
+Bertrand Lorentz (1):
+      Add Sony Ericsson Xperia X10
+
+Martin Pitt (8):
+      Dual-license fdi2mpi.py under X11, too
+      fdi2mpi.py: fix copy&paste typo in license
+      Rebuild udev rules on changes of mpi2udev.py
+      mpi2udev.py: Add matching to USB product and manufacturer name
+      README: Improve description of detection
+      Add Rockbox players
+      Add Archos 5 IMT
+      Revert "Add Sony Ericsson Xperia X10"
+
+bugzilla-daemon@freedesktop.org (1):
+      Add TEAC MP3 Player MP-375SD
+
 media-player-info 6 (2010-04-08)
 ================================
 Bastien Nocera (8):
