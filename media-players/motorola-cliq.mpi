@@ -1,7 +1,7 @@
 [Device]
 Vendor=Motorola
 Product=CLIQ/DEXT
-AccessProtocol=storage
+AccessProtocol=android;storage
 DeviceMatch=usb:22b8:2d67;
 
 [Media]

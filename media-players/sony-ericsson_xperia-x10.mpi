@@ -1,7 +1,7 @@
 [Device]
 Product=Xperia X10
 Vendor=Sony Ericsson
-AccessProtocol=storage
+AccessProtocol=android;storage
 DeviceMatch=usb:0fce:312e;usb:0fce:d12e;usb:0fce:e12e;
 
 [Media]
