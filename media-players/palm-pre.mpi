@@ -1,7 +1,7 @@
 [Device]
 Product=Prē
 Vendor=Palm
-AccessProtocol=storage
+AccessProtocol=webos;storage
 DeviceMatch=usb:0830:8004;usb:0830:8002;
 Icon=phone-palm-pre
 
