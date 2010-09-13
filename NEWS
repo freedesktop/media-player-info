@@ -1,3 +1,9 @@
+media-player-info 8 (2010-09-13)
+================================
+Florian Boucault (2):
+      Fix OutputFormats syntax
+      Add audio/flac as output format for the Samsung Galaxy
+
 media-player-info 7 (2010-08-24)
 ================================
 Angel Abad (2):
