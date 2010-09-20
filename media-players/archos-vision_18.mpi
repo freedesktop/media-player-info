@@ -1,0 +1,13 @@
+[Device]
+Product=Vision 18
+Vendor=Archos
+AccessProtocol=storage
+DeviceMatch=usb:071b:3203;
+
+[Media]
+InputFormats=audio/x-wav
+OutputFormats=audio/mpeg;audio/x-wav;audio/x-ms-wma;audio/x-flac;audio/x-ape
+
+[storage]
+AudioFolders=MUSIC/:RECORD/
+
