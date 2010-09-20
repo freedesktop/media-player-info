@@ -2,7 +2,8 @@
 Vendor=Motorola
 Product=Droid
 AccessProtocol=storage
-DeviceMatch=usb:22b8:41d9;
+DeviceMatch=usb:22b8:41d9;usb:22b8:41db;
+Icon=phone-motorola-droid
 
 [Media]
 OutputFormats=audio/mpeg;audio/aac;application/ogg
