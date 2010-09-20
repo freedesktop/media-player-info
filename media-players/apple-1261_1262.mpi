@@ -1,9 +1,8 @@
 [Device]
-AccessProtocol=storage;ipod
-USBVendor=*Apple*
 Product=iPods with video
 Vendor=Apple
-ProductID=1261;1262
+DeviceMatch=usb:05ac:1261;usb:05ac:1262
+AccessProtocol=storage;ipod
 
 [Media]
 OutputFormats=audio/mpeg;audio/aac;audio/x-wav;audio/x-aiff;video/mp4
