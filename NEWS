@@ -1,3 +1,27 @@
+media-player-info 9 (2010-09-20)
+================================
+Christophe Fergeau (8):
+      Give user-readable name to HTC Diamond mpi file
+      Add one more ID to htc-diamond.mpi
+      Add another Samsung Galaxy ID
+      Fix Xperia X10 usb ID
+      Add mpi file for Motorola CLIQ
+      Mark android devices as such
+      Mark the n900 as a maemo device
+      Mark the Palm Pre as a WebOS device
+
+Jonathan Ernst (3):
+      Alternative ID and icon for Motorola Droid
+      Add Sony Xperia X10 Mini
+      Add Samsung YP-M1
+
+Martin Pitt (5):
+      Fix Xperia X10 device ID
+      Add Motorola Dext
+      Add iRiver E30
+      Fix Apple video player detection
+      Motorola Cliq has its own mpi now
+
 media-player-info 8 (2010-09-13)
 ================================
 Florian Boucault (2):
