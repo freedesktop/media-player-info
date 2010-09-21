@@ -71,7 +71,7 @@ def parse_mpi(mpi):
     # do we have an icon?
     try:
         icon = cp.get('Device', 'icon')
-        print 'ENV{UDISKS_PRESENTATION_ICON_NAME}="%s"' % icon,
+        print ', ENV{UDISKS_PRESENTATION_ICON_NAME}="%s"' % icon,
     except ConfigParser.NoOptionError:
         pass
 
