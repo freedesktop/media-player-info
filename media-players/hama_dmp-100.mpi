@@ -1,6 +1,6 @@
 [Device]
-Product=IC1110 V1.0A, hama DMP-100
-Vendor=ISCI, hama, no-name
+Product=DMP-100
+Vendor=hama
 AccessProtocol=storage
 DeviceMatch=usb:0dda:0302;
 

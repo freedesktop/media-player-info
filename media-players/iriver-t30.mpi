@@ -1,5 +1,5 @@
 [Device]
-Product=T30 UMS firmware v1.7 , S10 UMS firmware v1.05
+Product=T30
 Vendor=iRiver
 AccessProtocol=storage
 DeviceMatch=usb:4102:1023;
