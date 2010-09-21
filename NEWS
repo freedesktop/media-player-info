@@ -1,3 +1,15 @@
+media-player-info 10 (2010-09-21)
+================================
+Martin Pitt (5):
+      fix copy&paste errors in tools copyright headers
+      mpi2udev.py: Add missing comma in rules with icons
+      sanitize name of iRiver T30
+      sanitize name of hama T30
+      Add automatic syntax checking
+
+Stephane BARON (1):
+      Add Archos Vision 18
+
 media-player-info 9 (2010-09-20)
 ================================
 Christophe Fergeau (8):
