@@ -1,7 +1,7 @@
 [Device]
 Product=Nexus One
 Vendor=Google
-AccessProtocol=android;storage
+AccessProtocol=storage
 DeviceMatch=usb:18d1:4e11;usb:18d1:4e12;
 Icon=phone-google-nexus-one
 

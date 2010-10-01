@@ -1,7 +1,7 @@
 [Device]
 Product=Pulse
 Vendor=Huawei
-AccessProtocol=android;storage
+AccessProtocol=storage
 DeviceMatch=usb:12d1:1501;
 
 [Media]

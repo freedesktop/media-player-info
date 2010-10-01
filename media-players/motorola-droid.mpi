@@ -1,7 +1,7 @@
 [Device]
 Vendor=Motorola
 Product=Droid
-AccessProtocol=android;storage
+AccessProtocol=storage
 DeviceMatch=usb:22b8:41d9;usb:22b8:41db;
 Icon=phone-motorola-droid
 
