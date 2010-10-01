@@ -1,7 +1,7 @@
 [Device]
 Product=N900
 Vendor=Nokia
-AccessProtocol=maemo;storage
+AccessProtocol=storage
 DeviceMatch=usb:0421:01c7;
 
 [Media]
