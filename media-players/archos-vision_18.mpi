@@ -9,5 +9,5 @@ InputFormats=audio/x-wav
 OutputFormats=audio/mpeg;audio/x-wav;audio/x-ms-wma;audio/x-flac;audio/x-ape
 
 [storage]
-AudioFolders=MUSIC/:RECORD/
+AudioFolders=MUSIC/;RECORD/
 
