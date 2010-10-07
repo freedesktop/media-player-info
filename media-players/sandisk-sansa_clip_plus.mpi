@@ -1,6 +1,6 @@
 [Device]
 AccessProtocol=storage
-DeviceMatch=usb:0781:74d0;
+DeviceMatch=usb:0781:74d1;
 Product=Sansa Clip+
 Vendor=SanDisk
 
