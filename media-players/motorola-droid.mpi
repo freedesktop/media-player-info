@@ -1,6 +1,6 @@
 [Device]
 Vendor=Motorola
-Product=Droid
+Product=Droid/Milestone
 AccessProtocol=storage
 DeviceMatch=usb:22b8:41d9;usb:22b8:41db;
 Icon=phone-motorola-droid
@@ -10,6 +10,6 @@ OutputFormats=audio/mpeg;audio/aac;application/ogg
 
 [storage]
 RequiresEject=true
-AudioFolders=music
+AudioFolders=Music/
 FolderDepth=4
 
