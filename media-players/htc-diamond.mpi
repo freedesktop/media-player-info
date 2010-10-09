@@ -1,5 +1,5 @@
 [Device]
-Product=Android Phone, HTC Diamond
+Product=Diamond
 Vendor=High Tech Computer Corp.
 AccessProtocol=storage
 DeviceMatch=usb:0bb4:0c01;usb:0bb4:0c02;usb:0bb4:0c13;usb:0bb4:0ff9;

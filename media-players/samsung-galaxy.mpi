@@ -1,5 +1,5 @@
 [Device]
-Product=Galaxy, Android Phone
+Product=Galaxy
 Vendor=Samsung
 AccessProtocol=storage
 DeviceMatch=usb:04e8:6601;usb:04e8:6602;usb:04e8:6603;usb:04e8:6640;usb:04e8:681c;usb:04e8:681d;
