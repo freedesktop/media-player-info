@@ -1,0 +1,12 @@
+[Device]
+Product=Desire/Hero
+Vendor=High Tech Computer Corp.
+AccessProtocol=storage
+DeviceMatch=usb:0bb4:0ff9;usb:0bb4:0c99;
+
+[Media]
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac;audio/x-wav;audio/x-midi
+
+[storage]
+AudioFolders=Music/
+
