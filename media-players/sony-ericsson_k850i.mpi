@@ -1,8 +1,8 @@
 [Device]
-Product=K850i, W910i, W580i
+Product=K850i
 Vendor=Sony Ericsson
 AccessProtocol=storage
-DeviceMatch=usb:0fce:e075;usb:0fce:e076;usb:0fce:e089;
+DeviceMatch=usb:0fce:e075;
 
 [Media]
 InputFormats=audio/amr

@@ -1,5 +1,5 @@
 [Device]
-Product=W950i mobile phone
+Product=W950i
 Vendor=Sony Ericsson
 AccessProtocol=storage
 DeviceMatch=usb:0fce:d037;
