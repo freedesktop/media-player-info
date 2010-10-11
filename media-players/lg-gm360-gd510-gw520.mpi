@@ -1,0 +1,12 @@
+[Device]
+Product=GM360/GD510/GW520
+Vendor=LG Electronics
+AccessProtocol=storage
+DeviceMatch=usb:1004:6018;
+
+[Media]
+OutputFormats=audio/mpeg;audio/aac;audio/x-ms-wma
+
+[storage]
+AudioFolders=Music/;Sounds/;Sounds/Music/;My folder/Music/
+PlaylistPath=My folder/Playlists/
