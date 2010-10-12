@@ -1,7 +1,8 @@
 [Device]
-AccessProtocol=storage
-DeviceMatch=usb:0781:7432;usb:0781:7433;usb:0781:7434;usb:0781:7435;usb:0781:74c0;usb:0781:74c1;usb:0781:74c2;usb:0781:74c3;
+Product=Sansa Fuze V2
 Vendor=SanDisk
+AccessProtocol=storage
+DeviceMatch=usb:0781:74c3;
 
 [Media]
 InputFormats=audio/x-wav

@@ -1,8 +1,8 @@
 [Device]
-AccessProtocol=storage
-DeviceMatch=usb:0781:7433;
 Product=Sansa Clip
 Vendor=SanDisk
+AccessProtocol=storage
+DeviceMatch=usb:0781:7433;
 
 [Media]
 InputFormats=audio/x-wav
