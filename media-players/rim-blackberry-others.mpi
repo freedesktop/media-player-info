@@ -2,7 +2,7 @@
 Product=Blackberry
 Vendor=RIM
 AccessProtocol=storage
-DeviceMatch=usb:0fca:0004;usb:0fca:0006;usb:0fca:8004;
+DeviceMatch=usb:0fca:0004;usb:0fca:0006;
 
 [Media]
 InputFormats=audio/mp4;audio/mpeg
