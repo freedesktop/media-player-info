@@ -5,7 +5,7 @@ AccessProtocol=storage
 DeviceMatch=usb:0bb4:0ff9;usb:0bb4:0c99;usb:0bb4:0c87;
 
 [Media]
-OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac;audio/x-wav;audio/x-midi
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac;audio/x-wav;audio/x-midi;application/ogg;audio/amr;audio/m4a
 
 [storage]
 AudioFolders=Music/;MP3/
