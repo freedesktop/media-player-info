@@ -1,4 +1,5 @@
 [Device]
+Product=W800i
 AccessProtocol=storage
 DeviceMatch=usb:0fce:d028;
 Vendor=Sony Ericsson

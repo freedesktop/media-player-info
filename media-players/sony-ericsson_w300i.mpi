@@ -1,8 +1,8 @@
 [Device]
-Product=W810i, K610i, W300i
+Product=W300i
 Vendor=Sony Ericsson
 AccessProtocol=storage
-DeviceMatch=usb:0fce:e042;usb:0fce:e046;usb:0fce:e053;
+DeviceMatch=usb:0fce:e053;
 
 [Media]
 InputFormats=audio/x-wav

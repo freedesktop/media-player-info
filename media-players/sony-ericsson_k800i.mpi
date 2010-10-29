@@ -1,4 +1,5 @@
 [Device]
+Product=K800i
 AccessProtocol=storage
 DeviceMatch=usb:0fce:d039;
 Vendor=Sony Ericsson
