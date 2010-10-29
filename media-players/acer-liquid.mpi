@@ -1,0 +1,12 @@
+[Device]
+Product=Liquid
+Vendor=Acer
+AccessProtocol=storage
+DeviceMatch=usb:0502:3203;usb:0502:3202;
+
+[Media]
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac;audio/mp4
+
+[storage]
+AudioFolders=Music/
+
