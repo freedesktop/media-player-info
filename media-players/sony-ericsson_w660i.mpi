@@ -1,8 +1,8 @@
 [Device]
-Product=W580i
+Product=W660i
 Vendor=Sony Ericsson
 AccessProtocol=storage
-DeviceMatch=usb:0fce:d089;usb:0fce:e089;
+DeviceMatch=usb:0fce:e0a3;
 
 [Media]
 OutputFormats=audio/mpeg;audio/aac
