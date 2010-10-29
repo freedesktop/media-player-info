@@ -1,8 +1,8 @@
 [Device]
-Product=iAUDIO 9
+Product=iAUDIO 7
 Vendor=Cowon
 AccessProtocol=storage
-DeviceMatch=usb:0e21:0910;
+DeviceMatch=usb:0e21:0751;
 
 [Media]
 InputFormats=audio/mpeg
