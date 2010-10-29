@@ -1,8 +1,8 @@
 [Device]
-Product=YP-MT6V, YP-F1,YP-U1, YP-U2Z, YP-U4
+Product=YP-MT6V
 Vendor=Samsung
 AccessProtocol=storage
-DeviceMatch=usb:04e8:5026;usb:04e8:502b;usb:04e8:503b;usb:04e8:5050;usb:04e8:5092;
+DeviceMatch=usb:04e8:5026;
 
 [Media]
 InputFormats=audio/x-wav

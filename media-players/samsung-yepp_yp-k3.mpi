@@ -1,8 +1,8 @@
 [Device]
-Product=Yepp YP-K3 (Firmware_4.06KR), YP-S2
+Product=Yepp YP-K3
 Vendor=Samsung
 AccessProtocol=storage
-DeviceMatch=usb:04e8:5080;usb:04e8:5095;
+DeviceMatch=usb:04e8:5080;
 
 [Media]
 OutputFormats=audio/mpeg;audio/x-ms-wma;application/ogg
