@@ -72,3 +72,12 @@ or file a bug).
 - Formats: it's a semi-colon-separated list of the mime-types of the
   playlist formats supported by the device
 
+
+The [storage] section describes the location where media files can be found and
+have to be stored.
+- AudioFolders: a semi-colon-separeted list of directories where audio files can
+  be found and must be stored
+- PlaylistPath: describes where and how the playlist files can be found and have
+  to be stored 
+- RequiresEject
+- FolderDepth
