@@ -75,9 +75,11 @@ or file a bug).
 
 The [storage] section describes the location where media files can be found and
 have to be stored.
-- AudioFolders: a semi-colon-separeted list of directories where audio files can
-  be found and must be stored
-- PlaylistPath: describes where and how the playlist files can be found and have
-  to be stored 
-- RequiresEject
-- FolderDepth
+- AudioFolders: a semi-colon-separeted list of directories where audio files
+  can be found and must be stored
+- PlaylistPath: describes where and how the playlist files can be found and
+  have to be stored 
+- RequiresEject: the eject ioctl is required to properly eject the media
+- FolderDepth: this tells applications exactly how deep of directory
+  hierarchies files should be placed in. If the device does not have a
+  limit, do not set this property.
