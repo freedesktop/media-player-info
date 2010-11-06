@@ -1,5 +1,5 @@
 [Device]
-Product=iAUDIO G2
+Product=iAUDIO
 Vendor=Cowon
 AccessProtocol=storage
 DeviceMatch=usb:0e21:0760;
