@@ -8,3 +8,5 @@ DeviceMatch=usb:04e8:5055;
 InputFormats=audio/mpeg
 OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-ms-asf;audio/x-wav;application/ogg
 
+[storage]
+AudioFolders=Music/
