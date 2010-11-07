@@ -1,5 +1,5 @@
 [Device]
-Product=S10 UMS firmware v1.05 folder
+Product=S10
 Vendor=iRiver
 AccessProtocol=storage
 DeviceMatch=usb:4102:1023;
