@@ -1,8 +1,8 @@
 [Device]
-DeviceMatch=usb:22b8:4810;
+Model=V3i
 Vendor=Motorola
+DeviceMatch=usb:22b8:4810;
 AccessProtocol=ipod;storage
-Model=Motorola Phone (V3i)
 USBModel=*Motorola Phone (V3i)*
 
 [Media]

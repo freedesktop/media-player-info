@@ -1,8 +1,8 @@
 [Device]
-DeviceMatch=usb:22b8:4810;
+Model=iTunes Phone
 Vendor=Motorola
+DeviceMatch=usb:22b8:4810;
 AccessProtocol=ipod;storage
-Model=Motorola iTunes Phone
 USBModel=*[iI][tT][uU][nN][eE][sS]*
 
 [Media]
