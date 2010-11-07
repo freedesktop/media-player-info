@@ -1,5 +1,5 @@
 [Device]
-Product=T7 Volcano UMS
+Product=T7 Volcano
 Vendor=iRiver
 AccessProtocol=storage
 DeviceMatch=usb:4102:1043;

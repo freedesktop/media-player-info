@@ -83,3 +83,26 @@ have to be stored.
 - FolderDepth: this tells applications exactly how deep of directory
   hierarchies files should be placed in. If the device does not have a
   limit, do not set this property.
+
+
+MPI FILES NAMING CONVENTION
+===========================
+The current naming convention for .mpi file is as follows :
+
+<vendor>_<device>.mpi
+
+Where :
+- <vendor> is the official name of the device's manufacturer. If the same
+  usb id is used by different market names, use the manufacturer name from
+  usb.ids/lsusb. If vendor name has more than one word, words are separated by
+  '-'
+- <device> is the official name of the device. If the same .mpi file matches
+  more than one device, you can separate devices with extra "_". If the .mpi
+  file matches a lot of different market names, you can use 0x1111 where 1111
+  is the product id of the device (in this case, use a generic name inside the
+  .mpi file (e.g. "Mobile phone", "Media player"). If device name has more than
+  one word, words are separated by '-'
+
+Please note that these conventions are not absolute rules but we try to keep
+the naming coherant.
+

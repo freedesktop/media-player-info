@@ -1,5 +1,5 @@
 [Device]
-Product=P1i mobile phone
+Product=P1i
 Vendor=Sony Ericsson
 AccessProtocol=storage
 DeviceMatch=usb:0fce:e092;

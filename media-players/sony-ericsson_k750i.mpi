@@ -1,5 +1,5 @@
 [Device]
-Product=K750i mobile phone
+Product=K750i
 Vendor=Sony Ericsson
 AccessProtocol=storage
 DeviceMatch=usb:0fce:d016;

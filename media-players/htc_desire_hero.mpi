@@ -1,6 +1,6 @@
 [Device]
 Product=Desire/Hero
-Vendor=High Tech Computer Corp.
+Vendor=HTC
 AccessProtocol=storage
 DeviceMatch=usb:0bb4:0ff9;usb:0bb4:0c99;usb:0bb4:0c87;
 

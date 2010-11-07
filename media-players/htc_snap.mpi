@@ -1,6 +1,6 @@
 [Device]
 Product=Snap
-Vendor=High Tech Computer Corp.
+Vendor=HTC
 AccessProtocol=storage
 DeviceMatch=usb:0bb4:0c5f;
 

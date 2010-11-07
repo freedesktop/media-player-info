@@ -1,6 +1,6 @@
 [Device]
-Product=M-Cody M20
-Vendor=Maxfield, M-Cody, TrekStor
+Product=M20
+Vendor=M-Cody
 AccessProtocol=storage
 DeviceMatch=usb:1890:0001;
 

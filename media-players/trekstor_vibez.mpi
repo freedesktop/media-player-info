@@ -1,6 +1,6 @@
 [Device]
-Product=TrekStor vibez
-Vendor=Jetflash
+Product=vibez
+Vendor=TrekStor
 AccessProtocol=storage
 DeviceMatch=usb:066f:842a;
 

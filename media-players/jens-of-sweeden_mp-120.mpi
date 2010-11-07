@@ -1,6 +1,6 @@
 [Device]
-Product=JoS MP-120
-Vendor=Jetflash
+Product=MP-120
+Vendor=JoS
 AccessProtocol=storage
 DeviceMatch=usb:066f:82d4;
 
