@@ -1,5 +1,5 @@
 [Device]
-Product=Media player
+Product=GoGear SA1100
 Vendor=Philips
 AccessProtocol=storage
 DeviceMatch=usb:0471:0163;
