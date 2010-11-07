@@ -1,7 +1,8 @@
 [Device]
+Product=Music Player
+Vendor=Jetflash
 AccessProtocol=storage
 DeviceMatch=usb:066f:8004;
-Vendor=Jetflash MP3 Player, AKA NAPA LCD-HD, AKA Medion, AKA Tevion  and other
 
 [Media]
 InputFormats=audio/x-wav

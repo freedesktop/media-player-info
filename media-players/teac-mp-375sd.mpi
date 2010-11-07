@@ -1,5 +1,5 @@
 [Device]
-Product=MP3 Player MP-375SD
+Product=MP-375SD
 Vendor=TEAC
 AccessProtocol=storage
 DeviceMatch=usb:0402:5668;
