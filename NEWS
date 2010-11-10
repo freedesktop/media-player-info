@@ -1,3 +1,103 @@
+media-player-info 11 (2010-11-10)
+================================
+Christophe Fergeau (3):
+      Revert "Mark android devices as such"
+      Revert "Mark the n900 as a maemo device"
+      Revert "Mark the Palm Pre as a WebOS device"
+
+Jonathan Ernst (83):
+      Add Sony Ericsson W995
+      Add Sony Ericsson K610i
+      Add Sony Ericsson W580i
+      Add Nokia N97
+      Add Nokia E71 (it's an S60 phone but has USBModel!=S60)
+      Add Sansa Clip
+      Fix usb id (the previous one was MTP mode)
+      Add the official/european phone name for Motorola Droid and fix folder name
+      Rename mpi file to reflect device name change
+      Don't need to specify the OS in the phone's name
+      Add HTC Legend phone
+      Add reference to Nokia N900 icon (found in banshee icons)
+      Add HTC Snap (music can be stored anywhere)
+      Fix HTC Diamond file to not include other phones IDs
+      Add HTC Dream/ADP1/G1/Magic/Tattoo
+      Add HTC Desire/Hero Phones
+      Add Philips GoGear Mix
+      Add Sony Walkman NWZ-E443
+      Split Sony Ericsson phones
+      Add some LG Electronics devices
+      Add Motorola Droid X phone
+      Add Dane-Elec Music Mediatouch
+      Split USB ID 6601 from the other Galaxy Ids as it is used by many other phones
+      Cleanup Sandisk devices
+      Separate Blackberry Bold from the rest of the Blackberries
+      Split Samsung music players
+      Add Cowon iAudio 9
+      Add Cowon iAUDIO 7
+      Fix Cowon iAudio 7 mpi file
+      Add Sony Ericsson W660i
+      Really add Sony Ericsson W660i
+      Add Nokia 5800
+      Improve Nokia 5310 definition
+      Improve HTC Desire definition
+      Add supported audio formats for HTC Desire/Hero
+      Add Sony Ericsson W810i
+      Cleanup Sony Ericsson phones
+      Add Sony Ericsson W595
+      0x6018 is used by at least GM360/GD510/GW520/KP501 phones
+      Add Nokia N95
+      Add Nokia 6110 Navigator
+      Add Cowon iAUDIO X5
+      071b:3203 matches at least Archos 1 Vision, Archos Vision 18 and Rockchip ROCK MP3
+      Delete unused files
+      Add Archos 5 Tablet
+      0x1100 and 0x1101 is used by at many Media Players
+      Add Acer Liquid (Android phone)
+      Add Creative Zen X-Fi 2
+      Add Philips GoGear Opus
+      Add Archos 32 IT
+      Improve Nokia 5800 definition
+      Add Sony Ericsson Xperia X10 mini pro
+      Add Motorola i1
+      Cowon iAUDIO G2 uses same id as iAUDIO U5
+      Add music location for YP-T9
+      Add Samsung YP-T10 which has MTP and MSC firmware/modes available
+      Improve 071b:3203 mpi file for better Archos Vision 3 support
+      Add Sony Ericsson Xperia X10 Mini Pro USB debug ID
+      Add Huawei Ideos
+      Add Philips media player (with yet unknown name)
+      Add definition of storage section
+      Add myself to the AUTHORS file ;-)
+      Add Cowon D2
+      Add Sandisk Sansa View (msc mode)
+      Improve README file
+      Add LG phones
+      Add Samsung Galaxy Icon reference as found in gnome-icon-theme-extras
+      Add Samsung YP S3 (UMS firmware) and YP T7
+      Add iRiver T60
+      Add alternate directory for playlists
+      Add two Ali MP3 players
+      Cleanup product names for jetflash and teac players
+      Add Nokia N91
+      Add Samsung YP-F2R
+      Specify the name of Philips 0x0163 media player
+      Add three Nokia phones (6120,6303,6600i)
+      Add three Sony Ericsson phones (W200,V630i,V640i)
+      Rename and simplify iriver S10
+      Cleanup Motorola phones
+      Filenames uniformization and naming convention
+      Add Samsung YP-Q2     Thanks Oleg Andreych for the infos
+      Add HTC Vision (Android phone)
+      Add HTC Incredible (Android Phone)
+
+Martin Pitt (2):
+      clean up RIM blackberry MPIs
+      Samsung U5: Use storage AccessProtocol
+
+Stephane BARON (1):
+      Fix typo in archos-vision_18.mpi
+
+
 media-player-info 10 (2010-09-21)
 ================================
 Martin Pitt (5):
