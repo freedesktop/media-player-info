@@ -1,7 +1,7 @@
 [Device]
 Product=U5
 Vendor=Samsung
-AccessProtocol=MTP
+AccessProtocol=storage
 DeviceMatch=usb:04e8:5121;
 
 [Media]
