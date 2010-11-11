@@ -2,7 +2,7 @@
 Product=Blackberry Pearl
 Vendor=RIM
 AccessProtocol=storage
-DeviceMatch=usb:0fca:0006;
+DeviceMatch=usb:0fca:0006;usb:0fca:0008;
 
 [Media]
 InputFormats=audio/mp4;audio/mpeg
