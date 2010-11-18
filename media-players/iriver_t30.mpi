@@ -2,7 +2,7 @@
 Product=T30
 Vendor=iRiver
 AccessProtocol=storage
-DeviceMatch=usb:4102:1023;
+DeviceMatch=usb:4102:1019;usb:4102:1023;
 
 [Media]
 InputFormats=audio/mpeg
