@@ -1,6 +1,6 @@
 [Device]
 Product=Phone
-Vendor=LG Electronics
+Vendor=LG
 AccessProtocol=storage
 DeviceMatch=usb:05c6:1000;
 

@@ -1,6 +1,6 @@
 [Device]
 Product=KC910 Renoir
-Vendor=LG Electronics
+Vendor=LG
 AccessProtocol=storage
 DeviceMatch=usb:1004:a400;
 
