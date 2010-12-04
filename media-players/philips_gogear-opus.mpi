@@ -6,7 +6,7 @@ DeviceMatch=usb:0471:2079;
 
 [Media]
 InputFormats=audio/x-wav
-OutputFormats=audio/mpeg;audio/x-ms-wma;;audio/x-flac;audio/aac
+OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-flac;audio/aac
 
 [Playlist]
 Formats=audio/x-mpegurl
