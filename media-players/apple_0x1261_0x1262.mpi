@@ -1,9 +1,0 @@
-[Device]
-Product=iPods with video
-Vendor=Apple
-DeviceMatch=usb:05ac:1261;usb:05ac:1262
-AccessProtocol=storage;ipod
-
-[Media]
-OutputFormats=audio/mpeg;audio/aac;audio/x-wav;audio/x-aiff;video/mp4
-
