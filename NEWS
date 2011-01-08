@@ -1,3 +1,43 @@
+media-player-info 12 (2011-01-08)
+=================================
+Jonathan Ernst (19):
+      Improve Blackberries definition
+      Add Playlist formats supported by the Samsung Galaxy
+      Add ID for Blackberry 8130 Pearl
+      Add new blackberries     Merge all blackberries as the ID depends not on t
+      Add Samsung YP-P2
+      Add newer Kindles
+      Add Nokia 6700
+      Add Samsung GT-S8000 Jet
+      Add LG Ally
+      Use friendly vendor name for LG
+      Add non debug USB ID for Ally and improve mpi
+      Fix typo in Philips GoGear Opus mpi
+      Add Philips GoGear Aria
+      Merge LG Ally and Optimus One as they use the same usb id.
+      Use naming convention for apple-video-ipod.mpi file
+      Add LG Vortex
+      Add HTC EVO 4G
+      Add Google Nexus S
+      Add Google Nexus S's debug mode usb id
+
+Luca Ferretti (1):
+      Add Sony Ericsson Xperia X8
+
+Martin Pitt (6):
+      bump version in configure.ac, forgot to commit
+      Add Philips GoGear RaGa (SA2RGA)
+      Add Cowon J3
+      Add Samsung YP-U4 (product ID 5093)
+      Add LG Optimus One
+      Revert "Add Samsung YP-U4 (product ID 5093)"
+
+Philippe Gauthier (1):
+      Add a new USB ID for iRiver T30
+
+Ryan Blue (1):
+      Update video capable Apple iPods
+
 media-player-info 11 (2010-11-10)
 ================================
 Christophe Fergeau (3):
