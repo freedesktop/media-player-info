@@ -5,8 +5,8 @@ AccessProtocol=storage
 DeviceMatch=usb:1004:6018;
 
 [Media]
-OutputFormats=audio/mpeg;audio/aac;audio/x-aac;audio/x-ms-wma;audio/vnd.rn-realaudio
+OutputFormats=audio/mpeg;audio/aac;audio/x-aac;audio/x-ms-wma;audio/vnd.rn-realaudio;audio/x-wav
 
 [storage]
 AudioFolders=Music/;Sounds/;Sounds/Music/;My folder/Music/
-PlaylistPath=My folder/Playlists/
+PlaylistPath=Sounds/Playlists;My folder/Playlists/
