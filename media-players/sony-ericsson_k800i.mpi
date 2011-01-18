@@ -8,3 +8,5 @@ Vendor=Sony Ericsson
 InputFormats=audio/x-amr
 OutputFormats=audio/mpeg;audio/3gpp;audio/mp4;audio/aac;audio/vnd.rn-realaudio;audio/x-amr;audio/x-imy;audio/x-midi;audio/x-ms-wma;audio/x-wav
 
+[storage]
+AudioFolders=music/
