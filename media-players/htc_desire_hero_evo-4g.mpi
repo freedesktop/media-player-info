@@ -2,7 +2,7 @@
 Product=Desire/Hero/EVO 4G
 Vendor=HTC
 AccessProtocol=storage
-DeviceMatch=usb:0bb4:0ff9;usb:0bb4:0c99;usb:0bb4:0c87;usb:0bb4:0c8d;
+DeviceMatch=usb:0bb4:0ff9;usb:0bb4:0c99;usb:0bb4:0ca2;usb:0bb4:0c87;usb:0bb4:0c8d;
 
 [Media]
 OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac;audio/x-wav;audio/x-midi;application/ogg;audio/amr;audio/m4a
