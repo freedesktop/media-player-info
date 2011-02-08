@@ -2,7 +2,7 @@ INTRODUCTION
 ============
 
 media-player-info is a repository of data files describing media player
-(mostly USB Mass Storage ones) capabilities. These files contain information
+(only USB Mass Storage ones) capabilities. These files contain information
 about the directory layout to use to add music to these devices, about the
 supported file formats, ... These capabilities used to be provided by HAL 
 in the 10-usb-music-players.fdi file but had to be moved elsewhere as part
@@ -26,6 +26,10 @@ formats they support, ...) to parse this file and extract whatever is necessary
 from it. The media player information isn't included directly in udev database
 because not many apps need it, and because we didn't want to repeat the same
 mistakes as HAL and include everything in its database.
+
+If you encounter an USB Mass Storage device that isn't detected correctly, 
+please open a bug against media-player-info :
+https://bugs.freedesktop.org/enter_bug.cgi?product=media-player-info
 
 
 MPI FILE FORMAT
