@@ -10,4 +10,4 @@ OutputFormats=audio/mpeg;audio/x-ms-wma;audio/audible;audio/x-wav
 
 [storage]
 AudioFolders=MUSIC/
-
+FolderDepth=2
