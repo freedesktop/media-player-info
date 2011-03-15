@@ -1,3 +1,31 @@
+media-player-info 13 (2011-03-15)
+=================================
+Jonathan Ernst (18):
+      HTC Evo uses same ID as Desire/Hero in non debug mode -> merging
+      Vortex uses same ID (in debug mode) as Ally -> merge
+      Add playlist format to HTC Desire and friends
+      Improve LG 0x6018 phones m-p-i file
+      Improve Sony Ericsson Xperia X10 mini Pro m-p-i
+      Add Sony Ericsson XPERIA X1
+      Add Motorola Droid 2 Android phone
+      Rename Motorola Droid X mpi file
+      Fix USB id of sony-ericsson K800i (was phone mode instead of mass storage mode)
+      Add storage folder to Sony Ericsson K800i
+      Add Huawei Ideos non-debug mode
+      Add Samsung Galaxy S debug ID
+      Add Desire HD debug ID
+      Don't generate icon rules as it is currently broken (see LP #657609)
+      Add 5 Coby players
+      Add FolderDepth=2 for the Zen Stone
+      Add RCA H100a
+      Add informations about bug reporting
+
+Martin Pitt (1):
+      Add Samsung U6.
+
+Philippe Gauthier (1):
+      Add Sony Walkman NWZ-E355.
+
 media-player-info 12 (2011-01-08)
 =================================
 Jonathan Ernst (19):
