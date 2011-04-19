@@ -1,3 +1,18 @@
+media-player-info 14 (2011-04-19)
+=================================
+Alejandro Mery (1):
+      Add Sandisk Sansa Fuze+
+
+Jonathan Ernst (4):
+      HTC legend uses same ID as desire/hero/evo-4g in debug mode
+      Add Pantech SIRIUS alpha
+      Add Sharp IS01
+      Add Sony Ericsson C905
+
+Martin Pitt (2):
+      Fix product ID of Sandisk Sansa Fuze.
+      Add Creative Zen X-Fi Style
+
 media-player-info 13 (2011-03-15)
 =================================
 Jonathan Ernst (18):
