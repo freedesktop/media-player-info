@@ -2,7 +2,7 @@
 Product=Sansa Fuze
 Vendor=SanDisk
 AccessProtocol=storage
-DeviceMatch=usb:0781:074c1;
+DeviceMatch=usb:0781:74c1;
 
 [Media]
 InputFormats=audio/x-wav
