@@ -7,3 +7,5 @@ DeviceMatch=usb:0bb4:0c5f;
 [Media]
 OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac;audio/x-midi;audio/x-wav
 
+[Storage]
+PlaylistPath=Music/Playlists;PLAYLIST/%File;Playlist/%File

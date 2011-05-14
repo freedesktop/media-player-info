@@ -10,4 +10,6 @@ OutputFormats=audio/mpeg;audio/x-ms-wma;audio/3gpp;audio/mp4;audio/aac;audio/vnd
 
 [storage]
 AudioFolders=Music/
+PlaylistPath=Music/Playlists;PLAYLIST/%File;Playlist/%File
+
 

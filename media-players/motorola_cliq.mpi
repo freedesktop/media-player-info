@@ -10,5 +10,5 @@ OutputFormats=audio/mpeg;audio/aac;application/ogg
 [storage]
 RequiresEject=true
 AudioFolders=music
+PlaylistPath=Music/Playlists;PLAYLIST/%File;Playlist/%File
 FolderDepth=4
-
