@@ -7,3 +7,6 @@ DeviceMatch=usb:054c:038e;
 [Media]
 OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac
 
+[storage]
+AudioFolders=MUSIC/
+
