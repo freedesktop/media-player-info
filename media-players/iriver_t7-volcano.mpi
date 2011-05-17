@@ -12,6 +12,6 @@ OutputFormats=audio/mpeg;application/ogg;audio/x-ms-wma
 Formats=audio/x-iriver-pla
 
 [storage]
-PlaylistPath=Playlists/%File
+PlaylistPath=Playlists/
 AudioFolders=Music/;Recordings/
 

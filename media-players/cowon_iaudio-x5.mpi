@@ -12,5 +12,5 @@ OutputFormats=audio/mpeg;application/ogg;audio/ogg;audio/flac;audio/x-wav;audio/
 Formats=audio/x-mpegurl;audio/x-scpls
 
 [storage]
-PlaylistPath=PLAYLIST/%File;Playlist/%File
+PlaylistPath=PLAYLIST/;Playlist/
 AudioFolders=MUSIC/;Music/

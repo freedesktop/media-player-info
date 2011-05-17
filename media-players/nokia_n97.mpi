@@ -12,4 +12,4 @@ Formats=audio/x-mpegurl
 
 [storage]
 AudioFolders=Sounds/Digital
-PlaylistPath=%File
+PlaylistPath=

@@ -10,5 +10,5 @@ OutputFormats=audio/mpeg;audio/aac;application/ogg
 
 [storage]
 AudioFolders=Music/
-PlaylistPath=Music/Playlists;PLAYLIST/%File;Playlist/%File
+PlaylistPath=Music/Playlists;PLAYLIST/;Playlist/
 

@@ -13,6 +13,6 @@ Formats=audio/x-mpegurl
 
 [storage]
 RequiresEject=true
-PlaylistPath=Playlists/%File
+PlaylistPath=Playlists/
 AudioFolders=Music/;Music Downloads/;Sounds/Digital/;Sounds/Simple/
 

@@ -8,6 +8,6 @@ DeviceMatch=usb:0421:0156;
 OutputFormats=audio/mpeg;audio/aac;audio/x-aac;audio/x-ms-wma;audio/m4a
 
 [storage]
-PlaylistPath=Playlists/%File
+PlaylistPath=Playlists/
 AudioFolders=Music/;Sounds/Digital/;MUSIC/
 

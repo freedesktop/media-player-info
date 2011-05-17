@@ -13,6 +13,6 @@ Formats=audio/x-mpegurl
 
 [storage]
 RequiresEject=true
-PlaylistPath=%File
+PlaylistPath=
 AudioFolders=MUSIC/;PODCAST/;RECORD/FM/;RECORD/VOICE/;AUDIBLE/;AUDIOBOOKS/
 

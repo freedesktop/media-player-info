@@ -8,6 +8,6 @@ DeviceMatch=usb:0781:74b1;
 OutputFormats=audio/mpeg;audio/x-ms-wma
 
 [storage]
-PlaylistPath=PLAYLIST/%File
+PlaylistPath=PLAYLIST/
 AudioFolders=MUSIC/
 FolderDepth=2

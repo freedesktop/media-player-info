@@ -10,6 +10,6 @@ OutputFormats=audio/mpeg;audio/x-ms-wma;audio/x-wav
 
 [storage]
 RequiresEject=true
-PlaylistPath=PLAYLIST/%File
+PlaylistPath=PLAYLIST/
 AudioFolders=MUSIC/
 

@@ -9,5 +9,5 @@ InputFormats=audio/x-wav
 OutputFormats=audio/mpeg;audio/x-ms-wma;application/ogg;audio/x-wav;audio/aac
 
 [storage]
-PlaylistPath=Playlists/%File
+PlaylistPath=Playlists/
 AudioFolders=Music/;Video/;Datacasts/;Recorded Files/FM Radio/;Recorded Files/Voice/

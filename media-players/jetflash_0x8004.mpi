@@ -13,6 +13,6 @@ Formats=audio/x-mpegurl
 
 [storage]
 DriveType=sd_mmc
-PlaylistPath=PLAYLIST/%File
+PlaylistPath=PLAYLIST/
 AudioFolders=/
 
