@@ -73,9 +73,15 @@ The [Playlist] section describes the player playlist capabilites. If it's
 absent, it means the player doesn't support playlists (or that the information
 contained in media-player-info is incomplete, in such a case, please email us
 or file a bug).
-- Formats: it's a semi-colon-separated list of the mime-types of the
+- Formats: a semi-colon-separated list of the mime-types of the
   playlist formats supported by the device
-
+- FolderSeparator: separator between directory/file names in playlist files. If
+  not given, '/' is assumed (standard Unix separator). Some players require the
+  DOS separator '\'.
+- LineEnding: line separator in playlist files. This can have the values 'CR',
+  'LF', or 'CRLF', which correspond to 0x0D (\r), 0x0A (\n), and 0x0D0A (\r\n)
+  respectively. If not given, the default behaviour depends on the music player
+  software.
 
 The [storage] section describes the location where media files can be found and
 have to be stored.
