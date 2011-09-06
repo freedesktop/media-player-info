@@ -10,7 +10,7 @@ OutputFormats=audio/mpeg;audio/x-ms-wma;audio/audible;application/ogg;audio/ogg;
 
 [Playlist]
 Formats=audio/x-mpegurl
-FolderSeparator=\
+FolderSeparator=DOS
 
 [storage]
 RequiresEject=true
