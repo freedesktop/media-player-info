@@ -1,8 +1,8 @@
 [Device]
-Product=IS01
+Product=IS03
 Vendor=Sharp
 AccessProtocol=storage
-DeviceMatch=usb:04dd:9337;
+DeviceMatch=usb:04dd:939a;
 
 [Media]
 OutputFormats=audio/mpeg;audio/x-ms-wma;audio/aac;audio/x-wav;audio/x-midi;application/ogg;audio/amr;audio/m4a
