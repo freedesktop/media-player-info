@@ -1,3 +1,63 @@
+media-player-info 15 (2011-10-04)
+=================================
+Alejandro Mery (1):
+      Add another product ID for Sansa Clip+
+
+Bernd Schlapsi (1):
+      Add audio folder for Sony Walkman NWZ-S638F
+
+Jo Shields (2):
+      Add HP Pre 3
+      Add HP Touchpad
+
+Jonathan Ernst (21):
+      Add Sony Ericsson W705
+      Add Vodafone 845 aka Huawei U8120 Android phone
+      Add LG Optimus S Android phone
+      Add Sharp IS03 Android phone
+      Add Sony Ericsson Xperia X12 (Arc) Android phone
+      Add Samsung Galaxy S2
+      Add Samsung Reality
+      0x05c6_0x1000 is also used by Samsung Freeform II not only LG phones
+      Add another ID for Samsung Galaxy S2 (thanks kazken3) for the hint
+      Add GoGear Vibe 4Gb (Modelo SA2VBE)
+      Add Nokia 6730 Classic
+      Add Philips GoGear Raga MP3 player
+      Add Sony Ericsson Vivaz
+      Add Barnes and Noble Nook eReaders
+      Add Motorola Atrix
+      Add Archos A43 Internet Tablet
+      Add Notion Ink Adam Android Tablet
+      Add Samsung Galaxy Ace
+      Add Acer Liquid
+      Add Cowon iAUDIO E2
+      Fix typo
+
+Martin Pitt (10):
+      Add TrekStor i.Beat rock
+      Add playlist path to all Android devices
+      Remove %File references
+      SanDisk Sansa Clip+: Add alternate podcasts directory
+      Add Samsung Galaxy SII
+      Add Palm Pre 2
+      Define "FolderSeparator" and "LineEnding" properties
+      Sandisk Sansa Fuze: Set FolderSeparator
+      Use symbolic names for FolderSeparator
+      Add Creative Zen Style 300
+
+Pavol Babinčák (1):
+      Add Sony Ericsson Xperia mini pro
+
+Shishir Joshi (1):
+      Add MicroMax A60 (Android based)
+
+William Witt (2):
+      Add Galaxy S 2
+      sandisk_sansa-fuze-plus: Add MSC mode Device ID
+
+Wojciech Zylinski (1):
+      Add Sony Ericsson Xperia Play
+
 media-player-info 14 (2011-04-19)
 =================================
 Alejandro Mery (1):
