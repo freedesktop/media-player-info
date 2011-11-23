@@ -2,7 +2,7 @@
 Product=N950
 Vendor=Nokia
 AccessProtocol=storage
-DeviceMatch=usb:0421:03d2;
+DeviceMatch=usb:0421:03d1;
 Icon=phone-nokia-n950
 
 [Media]
