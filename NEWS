@@ -1,3 +1,18 @@
+media-player-info 16 (2012-01-24)
+=================================
+Alex Fiestas (1):
+      Add Nokia N950
+
+Martin Pitt (8):
+      Fix Nokia N950
+      Add Sandisk Sansa Clip ZIP
+      Add Sony Walkman NWZ-S765
+      Generalize Sony NWZ-S76x
+      Add Sony Walkman S-750 series
+      Add Sony Walkman NWZ-S545
+      Add Archos Key
+      Add Sony Walkman NWZ-A800 series
+
 media-player-info 15 (2011-10-04)
 =================================
 Alejandro Mery (1):
