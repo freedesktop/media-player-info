@@ -1,5 +1,5 @@
 [Device]
-Product=Xperia X12
+Product=Xperia Arc/X12
 Vendor=Sony Ericsson
 AccessProtocol=storage
 DeviceMatch=usb:0fce:e14f;usb:0fce:614f;
