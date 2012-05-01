@@ -1,5 +1,5 @@
 [Device]
-Product=Galaxy Ace
+Product=Galaxy Ace/Gio
 Vendor=Samsung
 AccessProtocol=storage
 DeviceMatch=usb:04e8:689e;
