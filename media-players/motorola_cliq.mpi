@@ -7,6 +7,9 @@ DeviceMatch=usb:22b8:2d67;
 [Media]
 OutputFormats=audio/mpeg;audio/aac;application/ogg
 
+[Playlist]
+Formats=audio/mpegurl;audio/x-mpegurl
+
 [storage]
 RequiresEject=true
 AudioFolders=music

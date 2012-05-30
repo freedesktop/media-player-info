@@ -8,6 +8,9 @@ Icon=phone-motorola-droid
 [Media]
 OutputFormats=audio/mpeg;audio/aac;application/ogg
 
+[Playlist]
+Formats=audio/mpegurl;audio/x-mpegurl
+
 [storage]
 RequiresEject=true
 AudioFolders=Music/
