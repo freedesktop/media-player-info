@@ -1,3 +1,24 @@
+media-player-info 17 (2012-05-30)
+=================================
+Jason Leonard (1):
+      Add Creative Zen MX
+
+Jonathan Ernst (6):
+      Xperia X12 is better known as Xperia arc
+      Add Nec LifeTouch Note
+      Galaxy Gio (GT-S5660) shares same is as Ace
+      Add a third ID for Acer Liquid (MT)
+      Add Nokia C7-00
+      Add Sony Ericsson Xperia Mini
+
+Linus Walleij (1):
+      Add support for iBeat Jess
+
+Martin Pitt (3):
+      Add Nokia N9
+      Add playlist format to Android devices
+      Add alternative product ID for Sony Ericsson Xperia X10
+
 media-player-info 16 (2012-01-24)
 =================================
 Alex Fiestas (1):

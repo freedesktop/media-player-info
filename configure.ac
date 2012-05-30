@@ -1,4 +1,4 @@
-AC_INIT(media-player-info, 16, devkit-devel@lists.freedesktop.org)
+AC_INIT(media-player-info, 17, devkit-devel@lists.freedesktop.org)
 AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([media-players/])
 
