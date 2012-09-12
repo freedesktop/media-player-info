@@ -12,4 +12,4 @@ Formats=audio/x-mpegurl;audio/x-scpls
 
 [storage]
 AudioFolders=Music/
-PlaylistPath=Playlists/
+PlaylistPath=Music/Playlists/
