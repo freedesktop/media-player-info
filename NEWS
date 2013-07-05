@@ -1,3 +1,19 @@
+media-player-info 18 (2013-07-05)
+=================================
+Dan Williams (1):
+      Add HP Veer
+
+Markus Ottensmann (1):
+      Add Archos 5 Internet Tablet
+
+Martin Pitt (3):
+      Add ZTE Score
+      Add LG Optimus One P500
+      Drop newer kindles
+
+Pavol Babincak (1):
+      Fix playlist path for Sony Ericsson Xperia mini pro
+
 media-player-info 17 (2012-05-30)
 =================================
 Jason Leonard (1):
