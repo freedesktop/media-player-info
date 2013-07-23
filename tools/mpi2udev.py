@@ -34,7 +34,7 @@ def parse_mpi(mpi, hwdb):
     '''Print udev rule for given ConfigParser object.'''
 
     cp = configparser.RawConfigParser()
-    assert cp.read(mpi)
+    assert cp.read(mpi, encoding='UTF-8')
 
     rule = ''
 
