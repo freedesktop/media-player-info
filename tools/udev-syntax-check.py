@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # Simple udev rules syntax checker
 #
 # (C) 2010 Canonical Ltd.
@@ -22,7 +22,7 @@ import re
 import sys
 
 if len(sys.argv) < 2:
-    print >> sys.stderr, 'Usage: %s <rules file> [...]' % sys.argv[0]
+    sys.stderr.write('Usage: %s <rules file> [...]\n' % sys.argv[0])
     sys.exit(2)
 
 no_args_tests = re.compile('(ACTION|DEVPATH|KERNELS?|NAME|SYMLINK|SUBSYSTEMS?|DRIVERS?|TAG|PROGRAM|RESULT)\s*(?:=|!)=\s*"([^"]*)"$')
@@ -47,7 +47,7 @@ for path in sys.argv[1:]:
             if not (no_args_tests.match(clause) or args_tests.match(clause) or
                     no_args_assign.match(clause) or args_assign.match(clause)):
 
-                print 'Invalid line %s:%i: "%s"' % (path, lineno, line)
+                sys.stderr.write('Invalid line %s:%i: "%s"\n' % (path, lineno, line))
                 sys.exit(1)
                 result = 1
                 break

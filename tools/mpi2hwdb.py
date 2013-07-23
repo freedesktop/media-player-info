@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # Generate hwdb file from music player identification (.mpi) files
 #
 # (C) 2009 Canonical Ltd.
@@ -19,12 +19,12 @@
 # along with this program; if not, write to the Free Software Foundation,
 # Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.
 
-import sys, ConfigParser, os.path
+import sys, configparser, os.path
 
 def parse_mpi(mpi):
     '''Print hwdb file for given ConfigParser object.'''
 
-    cp = ConfigParser.RawConfigParser()
+    cp = configparser.RawConfigParser()
     assert cp.read(mpi)
 
     # if we have more info than just idVendor+idProduct we need to use an udev rule,
@@ -33,13 +33,13 @@ def parse_mpi(mpi):
         try:
             cp.get('Device', name)
             return
-        except ConfigParser.NoOptionError:
+        except configparser.NoOptionError:
             continue
 
     try:
         m = cp.get('Device', 'product')
-        print '#', m
-    except ConfigParser.NoOptionError:
+        print('#', m)
+    except configparser.NoOptionError:
         pass
 
     try:
@@ -50,28 +50,28 @@ def parse_mpi(mpi):
             (subsystem, vid, pid) = usbid.split(':')
             if subsystem != "usb":
                 continue
-            if usbids.has_key(vid):
+            if vid in usbids:
                 usbids[vid].append(pid)
             else:
                 usbids[vid] = [ pid ]
 
-        for vid, pids in usbids.iteritems():
-		for pid in pids:
-	            print 'usb:v%sp%s*\n'% (vid.upper(), pid.upper()),
-	            print ' ID_MEDIA_PLAYER=%s\n' % os.path.splitext(os.path.basename(mpi))[0],
+        for vid, pids in usbids.items():
+                for pid in pids:
+                    print('usb:v%sp%s*'% (vid.upper(), pid.upper()))
+                    print(' ID_MEDIA_PLAYER=%s' % os.path.splitext(os.path.basename(mpi))[0])
 
                     # do we have an icon?
                     try:
                         icon = cp.get('Device', 'icon')
                         # breaks media player detection : https://bugs.launchpad.net/ubuntu/+source/gvfs/+bug/657609
                         #print ' UDISKS_PRESENTATION_ICON_NAME=%s\n' % icon,
-                    except ConfigParser.NoOptionError:
+                    except configparser.NoOptionError:
                         pass
 
                     # terminate line
-                    print
+                    print()
 
-    except ConfigParser.NoOptionError:
+    except configparser.NoOptionError:
         pass
 
 #

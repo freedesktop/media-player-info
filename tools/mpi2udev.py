@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # Generate udev rules from music player identification (.mpi) files
 #
 # (C) 2009 Canonical Ltd.
@@ -18,7 +18,7 @@
 # along with this program; if not, write to the Free Software Foundation,
 # Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.
 
-import sys, ConfigParser, os.path
+import sys, configparser, os.path
 
 # translation of mpi Device keys to udev attributes
 mpi2udev = {
@@ -33,7 +33,7 @@ mpi2udev = {
 def parse_mpi(mpi, hwdb):
     '''Print udev rule for given ConfigParser object.'''
 
-    cp = ConfigParser.RawConfigParser()
+    cp = configparser.RawConfigParser()
     assert cp.read(mpi)
 
     rule = ''
@@ -42,7 +42,7 @@ def parse_mpi(mpi, hwdb):
         try:
             value = cp.get('Device', name)
             rule += mpi2udev[name] % value + ', '
-        except ConfigParser.NoOptionError:
+        except configparser.NoOptionError:
             continue
 
 
@@ -59,14 +59,14 @@ def parse_mpi(mpi, hwdb):
             (subsystem, vid, pid) = usbid.split(':')
             if subsystem != "usb":
                 continue
-            if usbids.has_key(vid):
+            if vid in usbids:
                 usbids[vid].append(pid)
             else:
                 usbids[vid] = [ pid ]
 
-        for vid, pids in usbids.iteritems():
+        for vid, pids in usbids.items():
             rule += 'ATTRS{idVendor}=="%s", ATTRS{idProduct}=="%s"'% (vid, '|'.join(pids)) + ', '
-    except ConfigParser.NoOptionError:
+    except configparser.NoOptionError:
         pass
 
     # if no information was found, don't write a rule at all
@@ -75,8 +75,8 @@ def parse_mpi(mpi, hwdb):
 
     try:
         m = cp.get('Device', 'product')
-        print '#', m
-    except ConfigParser.NoOptionError:
+        print('# ' + m)
+    except configparser.NoOptionError:
         pass
 
     rule += 'ENV{ID_MEDIA_PLAYER}="%s"' % os.path.splitext(os.path.basename(mpi))[0]
@@ -86,18 +86,18 @@ def parse_mpi(mpi, hwdb):
         icon = cp.get('Device', 'icon')
         # breaks media player detection : https://bugs.launchpad.net/ubuntu/+source/gvfs/+bug/657609
         # rule += ', ENV{UDISKS_PRESENTATION_ICON_NAME}="%s"' % icon
-    except ConfigParser.NoOptionError:
+    except configparser.NoOptionError:
         pass
 
     # print out the rule
-    print rule + '\n'
+    print(rule + '\n')
 
 #
 # main
 #
 
 # udev rules header
-print '''ACTION!="add|change", GOTO="media_player_end"
+print('''ACTION!="add|change", GOTO="media_player_end"
 # catch MTP devices
 ENV{DEVTYPE}=="usb_device", GOTO="media_player_start"
 
@@ -107,7 +107,7 @@ SUBSYSTEMS=="usb", GOTO="media_player_start"
 GOTO="media_player_end"
 
 LABEL="media_player_start"
-'''
+''')
 
 # the first argument should be "hwdb" or "udev"
 hwdb = False
@@ -122,4 +122,4 @@ for f in sys.argv[2:]:
     parse_mpi(f, hwdb)
 
 # udev rules footer
-print '\nLABEL="media_player_end"'
+print('\nLABEL="media_player_end"')
