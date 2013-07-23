@@ -1,3 +1,14 @@
+media-player-info 19 (2013-07-23)
+=================================
+Martin Pitt (5):
+      Drop obsolete fdi2mpi.py
+      Port generator tools to Python 3
+      Rename mpi files with overly long names
+      Add Motorola Droid 4
+
+Tom Gundersen (1):
+      Create udev hwdb when building with udev >= 196
+
 media-player-info 18 (2013-07-05)
 =================================
 Dan Williams (1):
