@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
 # Simple udev rules syntax checker
 #
 # (C) 2010 Canonical Ltd.
