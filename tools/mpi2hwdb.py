@@ -19,7 +19,7 @@
 # along with this program; if not, write to the Free Software Foundation,
 # Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.
 
-import sys, configparser, os.path
+import sys, configparser, os.path, os
 
 def parse_mpi(mpi):
     '''Print hwdb file for given ConfigParser object.'''
@@ -36,9 +36,11 @@ def parse_mpi(mpi):
         except configparser.NoOptionError:
             continue
 
+    block = ''
+
     try:
         m = cp.get('Device', 'product')
-        print('#', m)
+        block += '# ' + m + '\n'
     except configparser.NoOptionError:
         pass
 
@@ -57,8 +59,8 @@ def parse_mpi(mpi):
 
         for vid, pids in usbids.items():
                 for pid in pids:
-                    print('usb:v%sp%s*'% (vid.upper(), pid.upper()))
-                    print(' ID_MEDIA_PLAYER=%s' % os.path.splitext(os.path.basename(mpi))[0])
+                    block += 'usb:v%sp%s*\n' % (vid.upper(), pid.upper())
+                    block += ' ID_MEDIA_PLAYER=%s\n' % os.path.splitext(os.path.basename(mpi))[0]
 
                     # do we have an icon?
                     try:
@@ -68,8 +70,12 @@ def parse_mpi(mpi):
                     except configparser.NoOptionError:
                         pass
 
-                    # terminate line
-                    print()
+                    # empty line between blocks
+                    block += '\n'
+
+                    # write bytes so that we are independent of the locale
+                    os.write(sys.stdout.fileno(), block.encode('UTF-8'))
+
 
     except configparser.NoOptionError:
         pass
