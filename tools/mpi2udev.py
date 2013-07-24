@@ -18,7 +18,7 @@
 # along with this program; if not, write to the Free Software Foundation,
 # Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.
 
-import sys, configparser, os.path
+import sys, configparser, os.path, os
 
 # translation of mpi Device keys to udev attributes
 mpi2udev = {
@@ -75,7 +75,7 @@ def parse_mpi(mpi, hwdb):
 
     try:
         m = cp.get('Device', 'product')
-        print('# ' + m)
+        rule = ('# %s\n' % m) + rule
     except configparser.NoOptionError:
         pass
 
@@ -89,15 +89,18 @@ def parse_mpi(mpi, hwdb):
     except configparser.NoOptionError:
         pass
 
-    # print out the rule
-    print(rule + '\n')
+    # empty line between blocks
+    rule += '\n\n'
+
+    # write bytes so that we are independent of the locale
+    os.write(sys.stdout.fileno(), rule.encode('UTF-8'))
 
 #
 # main
 #
 
 # udev rules header
-print('''ACTION!="add|change", GOTO="media_player_end"
+os.write(sys.stdout.fileno(), b'''ACTION!="add|change", GOTO="media_player_end"
 # catch MTP devices
 ENV{DEVTYPE}=="usb_device", GOTO="media_player_start"
 
@@ -107,6 +110,7 @@ SUBSYSTEMS=="usb", GOTO="media_player_start"
 GOTO="media_player_end"
 
 LABEL="media_player_start"
+
 ''')
 
 # the first argument should be "hwdb" or "udev"
@@ -122,4 +126,4 @@ for f in sys.argv[2:]:
     parse_mpi(f, hwdb)
 
 # udev rules footer
-print('\nLABEL="media_player_end"')
+os.write(sys.stdout.fileno(), b'\nLABEL="media_player_end"')
