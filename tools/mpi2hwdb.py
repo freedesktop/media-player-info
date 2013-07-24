@@ -58,24 +58,23 @@ def parse_mpi(mpi):
                 usbids[vid] = [ pid ]
 
         for vid, pids in usbids.items():
-                for pid in pids:
-                    block += 'usb:v%sp%s*\n' % (vid.upper(), pid.upper())
-                    block += ' ID_MEDIA_PLAYER=%s\n' % os.path.splitext(os.path.basename(mpi))[0]
+            for pid in pids:
+                block += 'usb:v%sp%s*\n' % (vid.upper(), pid.upper())
+                block += ' ID_MEDIA_PLAYER=%s\n' % os.path.splitext(os.path.basename(mpi))[0]
 
-                    # do we have an icon?
-                    try:
-                        icon = cp.get('Device', 'icon')
-                        # breaks media player detection : https://bugs.launchpad.net/ubuntu/+source/gvfs/+bug/657609
-                        #print ' UDISKS_PRESENTATION_ICON_NAME=%s\n' % icon,
-                    except configparser.NoOptionError:
-                        pass
+                # do we have an icon?
+                try:
+                    icon = cp.get('Device', 'icon')
+                    # breaks media player detection : https://bugs.launchpad.net/ubuntu/+source/gvfs/+bug/657609
+                    #print ' UDISKS_PRESENTATION_ICON_NAME=%s\n' % icon,
+                except configparser.NoOptionError:
+                    pass
 
-                    # empty line between blocks
-                    block += '\n'
+                # empty line between blocks
+                block += '\n'
 
-                    # write bytes so that we are independent of the locale
-                    os.write(sys.stdout.fileno(), block.encode('UTF-8'))
-
+                # write bytes so that we are independent of the locale
+                os.write(sys.stdout.fileno(), block.encode('UTF-8'))
 
     except configparser.NoOptionError:
         pass
