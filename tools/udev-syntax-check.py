@@ -33,7 +33,7 @@ args_assign = re.compile('(ATTR|ENV|IMPORT){([a-zA-Z0-9_.-]+)}\s*=\s*"([^"]*)"$'
 result = 0
 lineno = 0
 for path in sys.argv[1:]:
-    for line in open(path):
+    for line in open(path, encoding='UTF-8'):
         lineno += 1
 
         # filter out comments and empty lines
