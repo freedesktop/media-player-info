@@ -1,3 +1,9 @@
+media-player-info 20 (2013-07-24)
+=================================
+Martin Pitt (6):
+      Fix build under non-UTF8 locales (#67242)
+      Fix build in separate build tree
+
 media-player-info 19 (2013-07-23)
 =================================
 Martin Pitt (5):
