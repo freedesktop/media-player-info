@@ -126,4 +126,4 @@ for f in sys.argv[2:]:
     parse_mpi(f, hwdb)
 
 # udev rules footer
-os.write(sys.stdout.fileno(), b'\nLABEL="media_player_end"')
+os.write(sys.stdout.fileno(), b'\nLABEL="media_player_end"\n')
