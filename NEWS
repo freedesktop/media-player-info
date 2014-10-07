@@ -1,3 +1,10 @@
+media-player-info 22 (2014-10-07)
+=================================
+Martin Pitt:
+      Terminate udev rules with an empty line (LP #1364747)
+      Add Sandisk Sansa Clip Sport (LP #1296418)
+      Remove ZTE Score (Debian #748647)
+
 media-player-info 21 (2013-07-24)
 =================================
 Martin Pitt (6):
