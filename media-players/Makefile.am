@@ -1,5 +1,5 @@
 mpidir = $(datadir)/media-player-info
-dist_mpi_DATA =  $(shell find $(top_srcdir)/media-players -name "*.mpi" -printf "%p\n")
+dist_mpi_DATA =  $(shell find $(top_srcdir)/media-players -name "*.mpi" -printf "%p\n" | LC_ALL=C sort)
 
 udevrulesdir = $(UDEV_DIR)/rules.d
 nodist_udevrules_DATA = 40-usb-media-players.rules
